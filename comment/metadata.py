@@ -72,19 +72,35 @@ class Metadata():
 
         return word_count, file_size
 
+    # Function to extract comment id
+    def extract_id_from_filename(self, filename):
+        name = filename.split('_')
+        for id in name:
+            if '-' in id and len(id) == 19:
+                return id
+        raise ValueError("ID not found in the filename")  # Raise exception if ID is not found
+
     # Extract all metadata
     def extract_all(self, validated_data):
         file = validated_data.get('file')
         file_name = file.name
         word_count, file_size = self.counter(file, file_name)
 
+        # Extract comment id
+        try:   
+            id = self.extract_id_from_filename(file_name)
+            print(id)
+        except ValueError as e:
+            print(e)
+
         # Convert file size to Kilobytes
         file_size_kb = file_size / 1024
 
         # Return the metadata values
         return {
+            'id': id,
             'file_name': file_name,
-            'title': "title",
+            'title': "none",
             'file_size': file_size_kb,
             'word_count': word_count,
         }

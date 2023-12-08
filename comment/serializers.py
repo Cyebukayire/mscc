@@ -21,4 +21,4 @@ class CommentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Comment
-        fields = ["file", "file_name", "title", "file_size", "word_count"] # Display all fields by default
+        fields = ["id", "file", "file_name", "title", "file_size", "word_count"] # Display all fields by default
