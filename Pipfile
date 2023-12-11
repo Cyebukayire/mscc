@@ -4,14 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-django-cors-headers = "*"
-python-docx = "*"
-pypdf2 = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
-python_full_version = "3.9.6"
+python_version = "3.11"
+python_full_version = "3.11.5"
