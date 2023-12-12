@@ -7,10 +7,7 @@ router = APIRouter(
     responses = {404: {"description": "Not found"}}
 )
 
-@router.get("/")
-async def read_comments():
-    return "Specify comment ID to extra simple metadata"
-
+# Retrieve metadata of a single comment
 @router.get("/{comment_id}") # EX: comment_id = 'COLC-2023-0006-0036'
 async def read_comment(comment_id: str):
     response = await fetch_comment(comment_id)
