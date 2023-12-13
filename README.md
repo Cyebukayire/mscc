@@ -18,9 +18,11 @@ Use the 'cd' command to navigate to where the project folder is
 
 ### Open working environment
 Check if 'pip' is already installed on your device with this command: ``` pip version```
+
 If the output does not run successfully to show the version of pip, then install pip with the command below.
 
 Choose the command to run based on your computer's Operating System.
+
 . Install pip on Linux: ``` python get-pip.py```
 
 . Install pip on MAC OS: ``` python get-pip.py```
