@@ -44,14 +44,14 @@ In the same terminal, run the following command to start the project, replace th
 ```
 
 
-On successful execution, this link(http://127.0.0.1:8000) will appear in your terminal. Open the link in your browser.
+#### On successful execution, this link(http://127.0.0.1:8000) will appear in your terminal. Open the link in your browser.
 
 This is the current output in the browser:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/2b987518-d16a-49d9-b611-02b51aa54648)
 
 
-Navigate to the documentation of the API (http://127.0.0.1:8000/docs)
+#### Navigate to the documentation of the API (http://127.0.0.1:8000/docs)
 
 Below is a screenshot of the current API documentation:
 
@@ -60,17 +60,17 @@ Below is a screenshot of the current API documentation:
 
 ### Test the API by extracting simple metadata
 
-Click on the Get button:
+#### Click on the Get button:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/200db5c8-fe2f-4fe6-8e8c-0c28725e91fd)
 
 
-Click on the "Try it out" button to test the API:
+#### Click on the "Try it out" button to test the API:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/0f0e7cf4-08e0-4c7c-9c64-ccfcc4b5ab9d)
 
 
-Input a valid comment ID in the empty field then press the "Execute" button to retrieve the metadata of that comment:
+#### Input a valid comment ID in the empty field then press the "Execute" button to retrieve the metadata of that comment:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/71c29721-5b1c-4328-a178-af587ec2610f)
 
