@@ -8,4 +8,3 @@ async def fetch_comment(comment_id):
         comment_api = f"https://api.regulations.gov/v4/documents/{comment_id}?include=attachments&api_key={api_key}"
         response = await client.get(comment_api)
         return response
-    

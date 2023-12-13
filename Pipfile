@@ -9,6 +9,9 @@ uvicorn = "*"
 httpx = "*"
 pydantic-settings = "*"
 pydantic = "*"
+docx = "*"
+pypdf2 = "*"
+python-docx = "*"
 
 [dev-packages]
 
