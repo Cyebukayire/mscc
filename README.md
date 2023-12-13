@@ -64,6 +64,7 @@ On a successful extraction of data, the metadata is displayed:
 
 ### Access the output metadata
 After extracting the metadata of a comment, the "output" folder is created in the project directory. The folder contains an Excel file "metadata.xlsx"
+
 Every time new metadata is extracted, the metadata is added to the Excel file.
 
 
