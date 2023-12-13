@@ -75,7 +75,7 @@ Below is a screenshot of the current API documentation:
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/71c29721-5b1c-4328-a178-af587ec2610f)
 
 
-On a successful extraction of data, the metadata is displayed:
+The metadata is then displayed in the response body:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/db95fcd6-ab95-4956-9964-d69580af7747)
 
