@@ -60,7 +60,7 @@ Below is a screenshot of the current API documentation:
 
 ### Test the API by extracting simple metadata
 
-#### Click on the Get button:
+#### Click on the "Get" button:
 
 ![image](https://github.com/Cyebukayire/mscc/assets/55869293/200db5c8-fe2f-4fe6-8e8c-0c28725e91fd)
 
