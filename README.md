@@ -37,7 +37,9 @@ Still in the 'mscc' folder, create a virtual environment where the project runs.
 ```
 
 ### Run the project
-In the same terminal, run the following command to start the project, replace the DEMO_KEY with your API Key from [Regulations.gov](https://open.gsa.gov/api/regulationsgov/). If you don't have the key already, the command below will still work for now using a DEMO_KEY as the default.
+In the same terminal, run the following command to start the project, replace the DEMO_KEY with your API Key from [Regulations.gov](https://open.gsa.gov/api/regulationsgov/). 
+
+#### If you don't have the key already, the command below can still work using a DEMO_KEY.
 
 ```sh
  $ API_KEY="DEMO_KEY" uvicorn main:app --reload
