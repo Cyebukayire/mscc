@@ -79,30 +79,42 @@ def count_words_in_pdf(url):
     except Exception as e:
         raise ValueError(f"An error occurred: {str(e)}")
 
-def word_counter(comment):
-    # check if the comment is an attachement or a string
-    is_url = urlparse(comment)
-
-    # count words in a string if the comment is not a document
-    if not all([is_url.scheme, is_url.netloc]): 
-        words = comment.split()
-        word_count = len(words)
-
+# Count total number of words in a comment
+def count_words_in_attached_document(file_url):
     # count words in an attached document
+    if file_url.endswith('.pdf'):
+        word_count = count_words_in_pdf(file_url)
+
+    elif file_url.endswith('.docx' or '.docm' or '.dotx'):
+        word_count = count_words_in_word_document(file_url)
+        
+    elif file_url.endswith('.txt'):
+        word_count = count_words_in_txt(file_url)
+
     else:
-        file_url = comment
-        if file_url.endswith('.pdf'):
-            word_count = count_words_in_pdf(file_url)
-
-        elif file_url.endswith('.docx' or '.docm' or '.dotx'):
-            word_count = count_words_in_word_document(file_url)
-            
-        elif file_url.endswith('.txt'):
-            word_count = count_words_in_txt(file_url)
-
-        else:
-            raise HTTPException(status_code = 400, detail = "Unsupported file format")
-        
-        word_count
-        
+        raise HTTPException(status_code = 400, detail = "Unsupported file format")
+    
     return word_count
+
+def word_counter(comment):
+    # check if comment has multiple attachments
+    if isinstance(comment, list):
+        word_count = 0
+        
+        # count total of words in all attached documents
+        for single_comment in comment: 
+            word_count += count_words_in_attached_document(single_comment)
+        return word_count
+    
+    else:
+        # check if the comment is a string
+        is_url = urlparse(comment)
+
+        # count words in a string if the comment has no attachment
+        if not all([is_url.scheme, is_url.netloc]): 
+            words = comment.split()
+            word_count = len(words)
+            return word_count
+            
+        else:
+            return count_words_in_attached_document(comment)

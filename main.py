@@ -9,4 +9,4 @@ app.include_router(comments.router)
 
 @app.get("/")
 async def root():
-    return {"message": f"Welcome {settings.APP_NAME}"}
+    return {"message": f"Welcome to {settings.APP_NAME}"}
