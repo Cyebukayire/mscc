@@ -12,6 +12,11 @@ pydantic = "*"
 docx = "*"
 pypdf2 = "*"
 python-docx = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+transformers = "*"
+pycryptodome = "*"
 
 [dev-packages]
 
