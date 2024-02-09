@@ -135,3 +135,77 @@ def get_comment_authors(comment_title, comment_content: str):
 
         
     return authors
+   
+
+def get_tech_tools(comment_content: str):
+    question = "what are the technologies discussed? Extract only their names." # If not, return none
+    text = comment_content.replace('\n', ' ')
+    tech_tools = []
+
+    # Handle large comment text
+    if len(text) > 1024:
+        counter = 0 # Text iterator
+        #TODO Fix: Some relevant information might be cut from chunk to chunk leading to loss of good data
+        # print("\n\nText:",text)
+        while(counter < len(text) + 1024):
+            # Select a small chunk from the long comment
+            chunk = text[counter : counter + 1024]
+
+            # Extract tech tools from comment
+            if(len(chunk.split()) != 0):
+                tools = bart_large.question_answering(question=question, text=chunk)
+                print(tools)
+                
+                # for tool in tools:
+                #     name = tool
+                    
+                    # Check if a tool name is short
+                    # if len(name.split()) > 6: 
+                    #     tools.remove(tool)
+                    # else:
+                
+                # TODO Use NER model to extract only names, for now remove Long sentences
+                for tool in tools:
+                    if len(tool.split()) > 7:
+                        tools.remove(tool)
+
+                # Append list of tools to tech_tools
+                tech_tools.append(tools)
+                
+            counter = counter + 1024
+
+        # Flatten tech tools using chain
+
+        # Flatten with loop
+        # for item in tech_tools:
+        #     for tool in item:
+        #         print("tool:", tool)
+
+        # Flatten with chain
+        # from itertools import chain
+        # tech_tools = list(chain.from_iterable(tech_tools))
+
+    else:
+        # Extract tech tools with BART transformer model
+        tools = bart_large.question_answering(question=question, text=text)
+                
+        # TODO Use NER model to extract only names, for now remove Long sentences
+        for tool in tools:
+            if len(tool.split()) > 3:
+                tools.remove(tool)
+            else:
+                tech_tools.append(tool)
+                
+        # print("\n\n\nSHORT COMMENT\n\n\n")
+
+    if len(tech_tools) > 1:
+        tech_tools = list(set(tuple(tool) for tool in tech_tools))
+
+        # Remove empty strings from tools
+        while ''in tools:
+            tools.remove("")
+
+        while " " in tools:
+            tools.remove(" ")
+
+    return tech_tools
