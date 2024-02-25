@@ -5,6 +5,9 @@ from io import BytesIO
 from PyPDF2 import PdfReader
 from docx import Document
 import pandas as pd 
+import requests
+import os
+from docx2pdf import convert
 
 # extract text from an excel document
 def extract_text_from_excel(url):
@@ -42,29 +45,19 @@ def extract_text_from_txt(url):
         
     except Exception as e:
         raise ValueError(f"An error occurred: {str(e)}")
+
+def readPdfFile(pdfFile):
+    # read file
+    reader = PdfReader(pdfFile)
+    pages = len(reader.pages) # Stores number of pages in the file
+    text = ""
+
+    # loop through file pages and extract text
+    for page in range(pages):
+        page_data = reader.pages[page]
+        text += page_data.extract_text()
     
-# extract text from a word document
-def extract_text_from_word_document(url):
-    try:
-        response = urllib.request.urlopen(url)
-        if response.status == 200:
-            # fetch word document data from url
-            data = response.read()
-            file = BytesIO(data)
-
-            # read document and extract text
-            doc = Document(file)
-            text = ""
-            for paragraph in doc.paragraphs:
-                text += paragraph.text
-
-            return text
-        
-        else:
-            return HTTPException(status = response.status, detail = "Failed to fetch data from the attached word document")
-        
-    except Exception as e:
-        raise ValueError(f"An error occurred: {str(e)}")
+    return text
 
 # extract text from a pdf document
 def extract_text_from_pdf(url):
@@ -75,24 +68,46 @@ def extract_text_from_pdf(url):
             data = response.read() 
             file = BytesIO(data) # create a BytesIO object; it helps to work with a file as if it was on the disk
 
-            # read file
-            reader = PdfReader(file)
-            pages = len(reader.pages) # Stores number of pages in the file
-            text = ""
-
-            # loop through file pages and extract text
-            for page in range(pages):
-                page_data = reader.pages[page]
-                text += page_data.extract_text()
-            
+            # read pdf data
+            text = readPdfFile(file)
             return text
-        
+            
         else:
             raise HTTPException(status = response.status, message = "Failed to fetch data from the attached pdf document")
 
     except Exception as e:
         raise ValueError(f"An error occurred: {str(e)}")
 
+# Download word document from url
+def download_docx_from_url(url, filename):
+    response = requests.get(url)
+    with open(filename, 'wb') as f:
+        f.write(response.content)
+
+# Convert word document to pdf to prevent data loss
+def convert_docx_to_pdf(docx_filename, pdf_filename):
+    convert(docx_filename, pdf_filename)
+
+# extract text from a word document
+def extract_text_from_word_document(url):
+    try:
+        response = urllib.request.urlopen(url)
+        if response.status == 200:
+            current_directory = os.path.dirname(os.path.realpath(__file__))
+            docx_filename = os.path.join(current_directory, "word_comment.docx")
+            pdf_filename = os.path.join(current_directory, "word_comment.pdf")
+            download_docx_from_url(url, docx_filename)
+            convert_docx_to_pdf(docx_filename, pdf_filename)
+
+            text = readPdfFile(pdf_filename)
+            return text
+        
+        else:
+            return HTTPException(status = response.status, detail = "Failed to fetch data from the attached word document")
+        
+    except Exception as e:
+        raise ValueError(f"An error occurred: {str(e)}")
+    
 # Extract text from an attachmed document
 def extract_text_from_attached_document(file_url):
     text = ""
@@ -133,3 +148,5 @@ def text_extractor(comment):
     
     else:
         raise ValueError("Error: Invalid comment format")
+
+# print(extract_text_from_word_document("https://downloads.regulations.gov/COLC-2023-0006-0036/attachment_1.docx"))
