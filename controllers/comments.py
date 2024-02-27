@@ -209,3 +209,45 @@ def get_tech_tools(comment_content: str):
             tools.remove(" ")
 
     return tech_tools
+
+
+def get_cited_case_laws(comment_content: str):
+    # Clean comment, remove any html tags and white spaces for an even formated text
+    cleaned_comment = clean_text(comment_content, ['html', 'all_whitespace']) 
+
+    # Extract all citations
+    citation_obj = get_citations(cleaned_comment) # Returns an object of detailed information about each citation
+
+    # Collect only case laws from citation_obj
+    citations = []
+    for citation in citation_obj:
+        citations.append(citation.token.data)
+    citations = list(set(citations))
+    return citations
+
+# def interest_presented(comment_content):
+#     # Load a fine-tuned BERT model for sequence labeling
+#     # model_name = "dbmdz/bert-large-cased-finetuned-conll03-english"
+#     # model_name = "dslim/bert-base-ner" 
+#     model_name = "xlm-roberta-large-finetuned-conll03-english"
+
+#     # Load the tokenizer and the model
+#     tokenizer = AutoTokenizer.from_pretrained(model_name)
+#     model = AutoModelForTokenClassification.from_pretrained(model_name)
+
+#     # Prepare the data with Stanza
+#     stanza_pipeline = stanza.Pipeline(lang='en', processors= 'tokenize, lemma')
+#     doc = stanza_pipeline(comment_content)
+#     sentences = [sentence.text for sentence in doc.sentences]
+    
+#     # Create roberta model pipeline
+#     nlp = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
+
+#     # Extract NER
+#     for sentence in sentences:
+#         results = nlp(sentence)
+#         print(results)
+
+#     Use the pipeline to get token-level predictions
+#     result = nlp(comment_content)
+#     print(result)
