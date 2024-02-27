@@ -17,8 +17,13 @@ torchvision = "*"
 torchaudio = "*"
 transformers = "*"
 pycryptodome = "*"
+stanza = "*"
+docx2pdf = "*"
+eyecite = "*"
+hyperscan = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
