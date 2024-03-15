@@ -3,17 +3,17 @@ import torch
 
 
 # BART Model using pytorch
-def question_answering(question, text):
+def question_answering(question, comment):
     tokenizer = BartTokenizer.from_pretrained('valhalla/bart-large-finetuned-squadv1')
     model = BartForQuestionAnswering.from_pretrained('valhalla/bart-large-finetuned-squadv1')
     
     # Limit large document input
-    if len(text) > 1024:
-        raise ValueError("Error: Large Text Input to BART")
+    if len(comment) > 1024:
+        raise ValueError("Error: Large Comment Input to BART")
 
     answers = []
 
-    encoding = tokenizer(question, text, return_tensors='pt')
+    encoding = tokenizer(question, comment, return_tensors='pt')
     input_ids = encoding['input_ids']
     attention_mask = encoding['attention_mask']
 
