@@ -148,5 +148,15 @@ def text_extractor(comment):
     
     else:
         raise ValueError("Error: Invalid comment format")
+    
+def create_text_chunks(comment):
+    chunk_size = 1024
+    comment_size = len(comment)
+    chunks = []
+    chunk_counter = 0
+    while chunk_counter < comment_size + chunk_size:
+        chunks.append(comment[chunk_counter:chunk_size])
+        chunk_counter += chunk_size
+
 
 # print(extract_text_from_word_document("https://downloads.regulations.gov/COLC-2023-0006-0036/attachment_1.docx"))
