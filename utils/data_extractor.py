@@ -151,12 +151,29 @@ def text_extractor(comment):
     
 def create_text_chunks(comment):
     chunk_size = 1024
+    # Remove new lines from the comment
+    # comment = comment.replace('\n', ' ')
     comment_size = len(comment)
+    print("\n\nCOMMENT_SIZE: ", comment_size, "\n\n")
     chunks = []
-    chunk_counter = 0
-    while chunk_counter < comment_size + chunk_size:
-        chunks.append(comment[chunk_counter:chunk_size])
-        chunk_counter += chunk_size
 
+    # Break down large text into smaller chunks
+    if(comment_size >= chunk_size):
+        chunk_counter = 0 # Text iterator
 
-# print(extract_text_from_word_document("https://downloads.regulations.gov/COLC-2023-0006-0036/attachment_1.docx"))
+        # Create text chunks 
+        while chunk_counter < comment_size + chunk_size:
+            chunk = comment[chunk_counter: chunk_counter + chunk_size]
+            # Store chunk text if it's not empty
+            print("\n\nCOUNTER: ", chunk_counter, "\n CHUNK: \n", chunk, "\n\n")
+            if len(chunk.split()) != 0: 
+                chunks.append(chunk)
+
+            chunk_counter = chunk_counter + chunk_size
+        print("\n\nALL CHUNKS: \n",chunks)
+
+    # Return the input comment if it is not a large text
+    else:
+        chunks.append(comment)
+
+    return chunks
