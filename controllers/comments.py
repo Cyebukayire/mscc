@@ -1,12 +1,8 @@
 from fastapi import HTTPException
 from services import comments as comment_service
-from utils import counter, data_extractor, temp_store, case_law_citation_patterns
-from config.config import settings
-from models import bart_large, distillbert_cased
-from eyecite import get_citations, clean_text, resolve_citations, annotate_citations
-from eyecite.tokenizers import HyperscanTokenizer
-
-import re
+from utils import counter, data_extractor, temp_store
+from models import bart_large 
+from eyecite import get_citations, clean_text
 
 # Retrieve metadata of a single comment
 async def get_comment_metadata(comment_id: str):
@@ -180,5 +176,5 @@ def get_cited_case_laws(comment_content: str):
     for citation in citation_obj:
         citations.append(citation.token.data)
     citations = list(set(citations))
-    
+
     return citations
