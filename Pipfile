@@ -21,6 +21,8 @@ stanza = "*"
 docx2pdf = "*"
 eyecite = "*"
 hyperscan = "*"
+install = "*"
+sentencepiece = "*"
 
 [dev-packages]
 ipykernel = "*"
