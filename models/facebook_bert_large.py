@@ -1,15 +1,22 @@
-from transformers import AutoTokenizer, BartForConditionalGeneration
+from transformers import pipeline, AutoTokenizer, BartForConditionalGeneration, BartTokenizer
+from utils import data_extractor
 
-def summarizing(comment):
-    # Define the model
-    model_name = "facebook/bart-large-cnn"
-    model = BartForConditionalGeneration.from_pretrained(model_name)
+# Define the model
+model_name = "facebook/bart-large-cnn"
+model = BartForConditionalGeneration.from_pretrained(model_name)
+tokenizer = BartTokenizer.from_pretrained(
+    'facebook/bart-large-cnn')
 
-    # Create tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+def summarize(comment):
+    # Create pipeline
+    summarizer = pipeline("summarization", model=model_name)
 
-    inputs = tokenizer([(comment[:1024])], max_length=1024, return_tensors="pt")
-    summary_ids = model.generate(inputs["input_ids"], num_beams=2, min_length=0, max_length=20)
-    summary = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    # Create text chunks
+    chunks = data_extractor.create_text_chunks(comment)
+
+    summary = [] # Stores summary
+
+    for chunk in chunks:
+        summary.append(summarizer(chunk))
 
     return summary

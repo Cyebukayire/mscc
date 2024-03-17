@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from services import comments as comment_service
 from utils import counter, data_extractor, temp_store
-from models import bart_large, distillbert_cased, facebook_bert_large, t5
+from models import bart_large, distillbert_cased, facebook_bert_large, t5, pegasus_large
 from eyecite import get_citations, clean_text
 
 # Retrieve metadata of a single comment
@@ -156,6 +156,6 @@ def get_cited_case_laws(comment_content: str):
 def get_summary(comment_content: str):
     # Summarize the input comment
     print("\n\nSUMMARIZING...\n\n")
-    summary = t5.summarizing(comment_content)
+    summary = facebook_bert_large.summarize(comment_content)
 
     return summary

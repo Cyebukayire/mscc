@@ -1,9 +1,9 @@
 from transformers import pipeline
 
-def summarizing(comment):
-    model_name = "sshleifer/distilbart-cnn-12-6"
+def summarize(comment):
+    model_name = "sshleifer/distilbart-cnn-12-6"# Very large and heavy
     
-    # Create the pipeline for the model
+    # Create pipeline for the model
     summarizer = pipeline("summarization", model=model_name)
 
     # Summarize the comment

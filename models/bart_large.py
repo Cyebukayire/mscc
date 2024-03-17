@@ -28,7 +28,7 @@ def question_answering(question, comment):
     return answers
 
 # Summerising task
-def summarizing(comment):
+def summarize(comment):
     # Define the task and model name
     task = "summarization"
     model_name = "philschmid/bart-large-cnn-samsum"
