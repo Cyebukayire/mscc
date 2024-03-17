@@ -1,8 +1,8 @@
-from transformers import BartForQuestionAnswering, BartTokenizer
+from transformers import BartForQuestionAnswering, BartTokenizer, pipeline
 import torch
 
 
-# BART Model using pytorch
+# Questing answering with pytorch
 def question_answering(question, comment):
     tokenizer = BartTokenizer.from_pretrained('valhalla/bart-large-finetuned-squadv1')
     model = BartForQuestionAnswering.from_pretrained('valhalla/bart-large-finetuned-squadv1')
@@ -26,3 +26,18 @@ def question_answering(question, comment):
     answers.append(answer)
 
     return answers
+
+# Summerising task
+def summarizing(comment):
+    # Define the task and model name
+    task = "summarization"
+    model_name = "philschmid/bart-large-cnn-samsum"
+
+    # Create the pipeline
+    summerizer = pipeline(task, model_name)
+
+    # Generate Summary
+    summary = summerizer(comment)
+
+    return summary
+    
