@@ -7,16 +7,17 @@ model = BartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = BartTokenizer.from_pretrained(
     'facebook/bart-large-cnn')
 
-def summarize(comment):
+def summarize(comment, max_length = 1024):
     # Create pipeline
     summarizer = pipeline("summarization", model=model_name)
 
     # Create text chunks
-    chunks = data_extractor.create_text_chunks(comment)
+    chunks = data_extractor.create_text_chunks(comment, max_length)
 
-    summary = [] # Stores summary
+    summary = "" # Stores summary content
 
+    # Summarize and collect all summaries together
     for chunk in chunks:
-        summary.append(summarizer(chunk))
+        summary = summary + " \n " + summarizer(chunk)[0]["summary_text"]
 
     return summary
