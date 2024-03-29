@@ -27,10 +27,10 @@ async def get_comment_metadata(comment_id: str):
                 document_size += attachment['attributes']['fileFormats'][0]['size']
 
             comment_content = data_extractor.text_extractor(document_url)
-            # word_count = counter.word_counter(comment_content)
-            # authors = get_comment_authors(comment_title, comment_content)
-            # tech_tools = get_tech_tools(comment_content)
-            # cited_case_laws = get_cited_case_laws(comment_content)
+            word_count = counter.word_counter(comment_content)
+            authors = get_comment_authors(comment_title, comment_content)
+            tech_tools = get_tech_tools(comment_content)
+            cited_case_laws = get_cited_case_laws(comment_content)
             summary = get_summary(comment_content)
             simple_metadata = {
                 "comment_id": comment_id,
@@ -38,10 +38,10 @@ async def get_comment_metadata(comment_id: str):
                 "document_url": document_url,
                 "document_name": document_name, 
                 "document_size": document_size,
-                # "word_count": word_count,
-                # "authors": authors,
-                # "tech_tools": tech_tools,
-                # "cited_case_laws": cited_case_laws,
+                "word_count": word_count,
+                "authors": authors,
+                "tech_tools": tech_tools,
+                "cited_case_laws": cited_case_laws,
                 "summary": summary
             }
 
@@ -155,7 +155,7 @@ def get_cited_case_laws(comment_content: str):
 
 def get_summary(comment_content: str):
     # Summarize the input comment
-    print("\n\nSUMMARIZING...\n\n")
-    summary = facebook_bert_large.summarize(comment_content)
+    max_length = 2048 # Token limit for each chunk for large comments
+    summary = t5.summarize(comment_content, max_length)
 
     return summary
