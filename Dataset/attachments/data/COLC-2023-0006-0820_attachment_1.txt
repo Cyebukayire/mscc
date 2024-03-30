@@ -1,0 +1,137 @@
+1. AI is a very handy tool for creating and generating busy work in a creative endeavor, making and placing make work assets, even for generating ideas that can be built upon in the same way as randomly generating prompts might work, thus allowing in many ways for small time creators to approach the full power and potency of creation that might take a full team of dozens of specialists.
+
+2. Not in the absolute immediate future, except in the table top space where artists might find themselves locked out, but it is only a matter of time before AI are able to recreate entire games.
+
+4. International consistency is absolutely critical, else places where piracy of content such as China, Russia, and others will only become all the more dangerous.
+
+5. Absolutely, one of the things that should definitely happen is addressing the nature of AI used in training of things, and those who use AI specifically to mimic the works of others as fraud.
+
+6. A ton of materials are collected via scraping of content creation services such as DeviantArt or ArchiveOfOurOwn, as well as things such as the New York Times archives.
+
+6.1. Often via deals made directly with various platforms, or through various forms of internet link crawling bots that simply scrape data and categorize it based on whatever system is used on that platform.
+
+6.2. I've no direct knowledge of this, but I imagine that 'licensing' occurs in a way that was not intended, such as with the DeviantArt case of them licensing out their platform for people to train AI on, using the reasonable copyright access they demand of their users (which is to allow them to use the art for promotional purposes as well as to share on their services), but then simply gave away to AI trainers.
+
+6.3. I must imagine that everything public domain that is also online in some format has likely bee scraped.
+
+6.4. I do not believe it is retained directly, but rather used to train the machine logic black box and then discarded to save space. I could be wrong about this.
+
+7. An AI trainer creates a program that to a certain extent self modifies, this program is designed to create a language model using shapes and predictive text by analyzing other works and then using them to predict the next 'word' that would go next to it, regardless of whether it is a literal word, or the position of certain pixels.
+
+7.1. I have little knowledge on the specifics
+
+7.2. I do not know
+
+7.3. I do not know
+
+7.4. In some cases yes, if it applies, for example, a watermark taken from it's training data set.
+
+8. When it is done for purely academic purposes, or with no profit motivation. AI cannot qualify for 'transformative' or 'artistic' under fair use for the reason that no human work goes into the decision making.
+
+8.1. I'm afraid I am not educated enough to make a statement in this respect.
+
+8.2. They should absolutely be held to the same standard and by some method be forced to insure that the work was collected with proper permission and clear statement of intent just like with any other form of copyright transferal.
+
+8.3. I see absolutely no issues with the usage of copyrighted matrials in training datasets for noncommercial, research, and academic purposes.
+
+If later adapted to commercial purposes, the full rules of copyright should apply, but if methodologies for training AI are discovered from it, that is fine.
+
+Funding source doesn't matter.
+
+8.4. They need enormous amounts of material, and it should not matter.
+
+8.5. In the same manner as it would any other copyright work. It should be based around the body of works of the same author and the particular copyrighted work, and PERHAPS even the general class of work, but I'm not sure on the last.
+
+9. They must have affirmative assent, it is too easy to slide it into the terms of service otherwise.
+
+9.1. Commercial uses only, including cases where a dataset initally made for noncommercial purposes turned commercial
+
+9.2. I do not know.
+
+9.3. The primary problem in this method is that without a sufficient body of work, AI cannot create quality work, and thus a purely opt in method could render them incapable of gaining a sufficient body of work necessary to produce quality pieces.
+
+9.4. All forms of copyright infringement remedies that currently exist should be made available.
+
+9.5. As a point of principle I dislike the idea of authors being able to give up all access or control of their work, but the fact of the matter is they can. In that light they should not have a say.
+
+10. The same way that any other copyright license could be obtained. Via a clear and legal contract.
+
+10.1. I do not see why it wouldn't be.
+
+10.2. It is not desirable, but probably should be permitted to some extent. Creative Commons is a perfect example of where it should be permitted. DeviantArt's collective system is not. An exception should be carved for creative commons.
+
+10.3. I do not think allowing this would be wise, but it is probably inevitable, and thus a system for it should be established.
+
+10.4. Absolutely not, under any circumstances, should this broad level of control be given over to AI dataset generation, it would be far too easy to abuse.
+
+10.5. Very likely yes.
+
+11. The legal department or equivalent of a company should be responsible for obtaining those licenses for a dataset, with a specific setup explicitly created to make it so they could sublicense it to anyone who utilized their dataset. It should ultimately be the responsibility of the curator.
+
+12. I do not know. I do not believe so given the AI is set up as a black box system.
+
+13. That is beyond the scope of what I understand, but I likely believe there'd be a period of economic turmoil as various corporations tried, and failed, to completely remove creatives from their work process.
+
+14. Using a copyrighted work without license should absolutely be punishable upon the full set of those who utilized it, so as to properly economically incentivize the process of making sure that the datasets are created in a safe and legal manner. It is important that no temporary licenses be permitted. Any AI dataset license should be in perpetuity.
+
+15. 100% yes, on all accounts.
+
+15.1. Author name, work title, and date of creation/copyright of the work.
+
+15.2. on a publicly accessible system so that it can be cross referenced.
+
+15.3. They should have to double check the reliability of the information passed onto them, and be able to sue for damages against the dataset creators or trainers if they are provided with false data  in order to recoup losses from lawsuits made against them by owners of those copyrights.
+
+15.4. It would be expensive, but if the system cannot run ethically it should not run at all.
+
+16. None unless specifically outlined in the licensing agreement that gave the dataset creator the usage of that AI.
+
+17. I do not know.
+
+Copyrightability
+
+18. When the dataset for training is entirely derived from their own work.
+
+19. I do not know, presumably if the AI created work is used as the basis for a further transformative work.
+
+20. No more so than anything else, and frankly, less than most. AI should not be as well protected as other works. Entities should have to trade 'rapidity of work' for 'safety from copying' and thus avoid issues of a company being able to sue someone else for using the same dataset they didn't purchase exclusive rights too.
+
+20.1. Any form of protection should be under the existing copyright system.
+
+21. No. Not purely AI generated works without a human transformative action.
+
+
+22. Obviously, after all they are created from those works without direct human input, and can be created in manners that resemble the work of someone else, published as if it was by them. It can create enormous fraudulent bases of work.
+
+23. I think substantive similarity would be appropriate.
+
+24. They could not given my understanding of how AI training and datasets used in them function. Discovery could at least give them access to the original dataset.
+
+25. The developer of the generative AI model and the developer of the system incorporating that model as both directly benefits monetarily from it and went into it. The end users may or may not benefit.
+
+25.1. Not especially. If someone lets the public insert data into them that the system then generally uses to train itself, there's a problem.
+
+26. I do not know enough on the topic to make a comment.
+
+27. I've explained in depth elsewhere, but the important thing is that those making these systems and profiting most heavily from them are held accountable to the average small time creators who have the least ability to protect themselves.
+
+
+28. Yes, absolutely. A simple matter of either a watermark or otherwise some clear, public identification such as in a tagged system.
+
+28.1. Preferably the system outputting the device would be responsible, but any distribution platform should be held responsible for removing an improperly marked work or marking it as such or be held responsible.
+
+28.2. None that I can think of except that someone might find ways to remove the labeling.
+
+28.3. Fines for fraud, and interstate or international wirefraud depending on the medium used.
+
+29. I'm afraid I do not know.
+
+30. I do not know, but they should be SIGNIFICANTLY stricter, even to the point of being outright illegal if the person is still alive. The danger of deep fakes is simply far too enormous.
+
+31. These should absolutely be established, and the higher bar of the two laws in any given situation should be set. The federal law should set a floor, not a ceiling. They should fit the idea that a person has near total control and copyright over their own personality and likeness.
+
+32. Yes, absolutely, because without such protections fraud becomes far too easy to commit. Anyone should be eligible for it, and the protections should take the same form as fraud protections.
+
+33. I do not know enough to comment on this.
+
+34. I have no further comments

@@ -1,0 +1,87 @@
+General Questions
+1. This technology has a huge potential to accelerate the production of art, among other areas of study, by allowing users to quickly and more effectively generate visual images that can be further repurposed into a final product.  However, this technology also presents a huge capacity to be abused by those who mean ill intent.  Due to the speed and increasing intelligence of generative AI, the capacity for positive and negative consequences exists at a larger scale.
+As the technology proliferates, I expect many sectors be impacted, including the general public.  Overally, generative AI will allow more people to participate in certain activities that the previously could not due to time or level of skill.  However, generative AI will also be abused and make it harder to be noticed in a landscape filled by misinformation and spam.  It will be important for society to adapt and realize not everything is worthy of attention or copyright protection.  
+
+2.  In my area of expertise, software development, AI raises issues such as security, privacy, misinformation, and copyright.  The careless use of public-facing AI can result in data leaks of both company secrets and user data.  Delegating too much trust to an AI can lead to more mistakes and needless bugs because AI is not perfect and will not always understand the context for the code its evaluating or producing.  Finally, copyright can become an issue in the event that sensitive or corporate code is carelessly shared with a public-facing AI model.  In the event that sensitive data were shared with a public AI model, it would be considered a security breach.
+
+3. I have none at this time that would be considered reputable.
+
+4. This is another topic where my knowledge is thin.  However, I believe it is important that the U.S. remain competitive on the global stage in AI R&D without engaging in a moral and ethical "race to the bottom".
+
+5. Yes, I believe new copyright legislation is warranted to address AI in general along with generative AI.  Regarding generative AI only for this context, a distinction must be made clear between the copyright rules toward AI-generated content without human contribution and with human contribution.  The benchmark for the human contribution needed in order for copyright to be granted, I leave to the U.S. Copyright Office to decide.
+
+There should also be restrictions on the use of living person's biometric data such as voice or true likeness depending on if the data was used with or without knowledge or permission.  In my view, outside of what is necessary to guarantee freedom of speech, unknown and non-permissive uses of biometric data in the production of generative AI work should not be allowed.
+
+I believe there should also be clarification about how copyright applies to AI training, specifically when training data is acquired from the public sphere versus the private one.
+
+If I may be a little forward-thinking, until the day AI becomes a conscious agent, anything it produces without human contribution should not be considered eligible for copyright protection.
+
+-----
+Training
+
+6. From what I am aware of in relation to generative AI, copyright protected materials such as art, music, literature, are either given to the AI model to train on or scraped from the internet.
+
+6.1.  I do not have enough knowledge to answer this question well.  I do know that materials for training are commonly scraped from the public internet.
+
+7.1.  Training material is used to help an AI model "learn" via the adjustment of internal weights and doesn't intrinsically reproduce existing copyrighted material in the training process.  The only time an AI model in training or in regular use could produce anything that would be considered infringing would be in its output.  It is possible for an AI model to be prompted to create an infringing piece of material.  It is also possible for a model to be poorly trained by overtraining on specific data, called overfitting, such that it is more likely to reproduce training data that in itself would hold copyright.  
+
+7.2.  Based on what I understand, any material used to train an AI model is converted into a collection of data points that are mathematically evaluated inside the model to adjust the internal weights between its individual nodal functions. 
+
+7.3.  No.  From what I understand, it is not currently possible to make an AI model forget without erasing and retraining the entire model.  Economic feasibility in retraining a model would depend on its size and use.  However, I do not believe economic feasibility should take presedence over moral and ethical implications in the event an AI learns about sensitive data it should not have.
+
+7.4. It depends on how well the model was trained.  A well-trained model should not be capable of reproducing its training data in a normal scenario, therefore it would be very difficult to tell if a specific copyrighted piece were used as training.  An overfitted model might be more likely of reproducing its training data and give itself away.
+
+8.  This is a difficult question.  I do not like the idea of copyrighted material being used for AI training without the knowledge or permission from the creator.  However, to answer the question.  I think it would only constitute fair use for as long as the model is trained well enough to not be capable on its own of reproducing the copyrighted material used in training as an output.  Copyright infringing output should always be considered as such.
+
+9.  I don't believe this should be an either-or question.  Copyright holders and content creators of all kinds should be allowed to opt-in or out of allowing their work to be used for training at any time.  Whether an AI training policy on user content is opt-in or out should depend on the service.
+
+9.1.  This is a tough question because based on what I understand, it's a matter of scale.  I think it should depend on whether the copyrighted material in question was made available without restriction to the public to begin with.  Any copyrighted material posted privately should require consent in all cases, both commercial and non-commercial.  Publicly posted data should also require consent only when used for commercial purposes AND if the owner restricted the ability for AI to learn from the publicly posted data, such as by using a robot.txt file.
+Publicly posted copyrighted material that has no input from the creator or any posted terms about the intended nature of its use abdicates the right to object if their work is used for AI training regardless of commercial use.
+
+9.2. It should only cover work that has not yet been used for training.
+
+9.3. I do not have enough knowledge to answer this question.
+
+9.4.  I believe there should be a separate cause of action in addition to existing infringement procedures where applicable in the event an opt-in or out objection is not honored. 
+
+14.  I believe consideration should be given to whether a copyrighted piece was posted publicly or privately.  Privately posted copyrighted material should never be eligible for AI training outside of the permissive use of the copyright owner.  Publicly posted copyrighted material should always be eligible for AI training provided that the copyright owner did not announce formal objection to the activity.
+
+-----
+Copyrightability
+
+19.  Yes.  At the disgression of the U.S. Copyright Office, new standards should be set for a baseline consideration to determine if an AI-generated piece has enough human contribution to be worthy of copyright protection.
+
+-----
+Infringement
+
+23. Yes.  I believe that current copyright should apply to AI-generated output in that if a work is substantially similar and does not meet the criteria for fair use, then the AI piece in question is infringing.
+
+24. Only if the AI output can be demonstrated as substantially similar to the work being copied and the plaintiff can prove that their image existed before the AI-generated image did.  An AI model does not need to be trained on specific copyrighted works in order to be made to generate infringing material.  Existing civil discovery rules should be sufficient.
+
+25. If a piece of AI-generated content is deemed to be copyright infringment, then whoever is responsible for producing the image should be held liable.
+
+26. No.
+
+27. Anyone using generative AI should be held to the same infringement standards as any other content creator.
+
+-----
+Labeling or Identification
+
+28.  Yes.
+
+28.1.  Whoever is responsible for producing the AI-generated content.
+
+28.2.  There should be an agreed upon AI-label that can be used by anyone to universally identify an AI-generated piece.
+
+28.3.  Fines.  Removing the AI-label from an AI-generated piece could constitute an attempt at spreading misinformation.
+
+29.  I have limited understanding of this topic.  Based on what I do know, the current methods for identifying AI-generated content are insufficient especially in the face of AI-generation's constant improvement in quality.
+
+-----
+Additional Questions About Issues Related to Copyright
+
+31. No, I believe what we have is sufficient with some revisiting.
+
+32. No.  Artistic styles should remain uncopyrightable because "style" is more of an idea of how to draw something than a fixed, tangible realization of an idea in itself.  Artistic styles are also capable of changing over time for little reason if any at all.
+
+34. None that I can think of.
