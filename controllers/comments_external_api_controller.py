@@ -1,6 +1,6 @@
 from fastapi import HTTPException
 from services import comments as comment_service
-from utils import counter, data_extractor, temp_store
+from utils import data_extractor, temp_store, word_counter
 from utils.nlp_utils import get_comment_authors, get_tech_tools, get_cited_case_laws
 
 # Retrieve metadata of a single comment
@@ -8,7 +8,7 @@ async def get_comment_metadata(comment_id: str):
     response = await comment_service.get_comment_with_url(comment_id)
     
     # Extra metadata
-    if response.status == 200:
+    if response.status_code == 200:
         response_data = response.json()
         comment_data = response_data['data']['attributes']
         comment_title = comment_data['title']
@@ -26,7 +26,7 @@ async def get_comment_metadata(comment_id: str):
                 document_size += attachment['attributes']['fileFormats'][0]['size']
 
             comment_content = data_extractor.text_extractor(document_url)
-            word_count = counter.word_counter(comment_content)
+            word_count = word_counter.word_counter(comment_content)
             authors = get_comment_authors(comment_title, comment_content)
             tech_tools = get_tech_tools(comment_content)
             cited_case_laws = get_cited_case_laws(comment_content)
@@ -45,7 +45,7 @@ async def get_comment_metadata(comment_id: str):
             }
 
             # Store metadata
-            temp_store.store_metadata(simple_metadata)
+            temp_store.store_metadata(metadata=simple_metadata, file_name="metadata")
 
             return simple_metadata
         
@@ -53,7 +53,7 @@ async def get_comment_metadata(comment_id: str):
         else:
             comment_content = comment_data['comment']
             authors = get_comment_authors(comment_title, comment_content)
-            word_count = counter.word_counter(comment_content)
+            word_count = word_counter.word_counter(comment_content)
             tech_tools = get_tech_tools(comment_content)
             cited_case_laws= get_cited_case_laws(comment_content)
             # summary = get_summary(comment_content)
