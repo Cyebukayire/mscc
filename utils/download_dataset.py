@@ -53,7 +53,7 @@ async def download_comments(db_file):
                 # Store the comment in a pdf 
                 if comment_content is None:
                     comment_document = comment_object['data']['attributes']['fileFormats'][0]
-                    
+
                     print("COMMENT MISSED!")
                     # Check for other attached documents (Some documents are not marked as attachments in the API)
                     if comment_document['format'] == 'pdf':
@@ -77,6 +77,11 @@ async def download_comments(db_file):
 
 # Create pdf file
 def create_pdf(comment_content, comment_id, file_name = None):
+    # Validate comment content
+    if not comment_content.strip():
+        print("Error: No content provided. Pdf file not created!")
+        return
+    
     # Create pdf document
     current_directory = os.path.dirname(os.path.realpath(__file__))
 
@@ -86,16 +91,14 @@ def create_pdf(comment_content, comment_id, file_name = None):
     # Create directory
     if not os.path.exists(comments_directory):
         os.makedirs(comments_directory)
+    
+    # Create temporary txt document to store the comment
+    txt_file_path = os.path.join(comments_directory, f'comment.txt')
+    save_to_text_file(txt_file_path, comment_content)
 
-    pdf_filename = os.path.join(comments_directory, f'{comment_id}') if file_name is None else os.path.join(comments_directory, f'{file_name}')
-
-    # Create a PDF canvas
-    pdf = canvas.Canvas(pdf_filename, pagesize=letter)
-
-    # Write data to PDF
-    pdf.drawString(0, 0, comment_content)
-
-    # Create the new pdf containing comment content
+def save_to_text_file(file_path, data):
+    with open(file_path, 'x') as file: # File is created if it doesn't exist
+        file.write(data)
 
 # # Fetch comment content
 # def download_comment(file_url, comment_id):
