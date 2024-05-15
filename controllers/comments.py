@@ -7,10 +7,12 @@ from eyecite import get_citations, clean_text
 # Retrieve metadata of a single comment
 async def get_comment_metadata(comment_id: str):
     response = await comment_service.get_comment(comment_id)
-    response_data = response.json()
 
+    print("\n\nSTATUS CODE: ", response.status_code)
+    
     # Extra metadata
     if response.status_code == 200:
+        response_data = response.json()
         comment_data = response_data['data']['attributes']
         comment_title = comment_data['title']
         comment_content = ""
@@ -31,7 +33,7 @@ async def get_comment_metadata(comment_id: str):
             authors = get_comment_authors(comment_title, comment_content)
             tech_tools = get_tech_tools(comment_content)
             cited_case_laws = get_cited_case_laws(comment_content)
-            summary = get_summary(comment_content)
+            # summary = get_summary(comment_content)
             simple_metadata = {
                 "comment_id": comment_id,
                 "comment_title": comment_title,
@@ -42,7 +44,7 @@ async def get_comment_metadata(comment_id: str):
                 "authors": authors,
                 "tech_tools": tech_tools,
                 "cited_case_laws": cited_case_laws,
-                "summary": summary
+                # "summary": summary
             }
 
             # Store metadata
@@ -53,11 +55,11 @@ async def get_comment_metadata(comment_id: str):
         # If comment has no attachement, extract few metadata (Ex: comment_id = 'COLC-2023-0006-0862')
         else:
             comment_content = comment_data['comment']
-            # authors = get_comment_authors(comment_title, comment_content)
-            # word_count = counter.word_counter(comment_content)
-            # tech_tools = get_tech_tools(comment_content)
-            # cited_case_laws= get_cited_case_laws(comment_content)
-            summary = get_summary(comment_content)
+            authors = get_comment_authors(comment_title, comment_content)
+            word_count = counter.word_counter(comment_content)
+            tech_tools = get_tech_tools(comment_content)
+            cited_case_laws= get_cited_case_laws(comment_content)
+            # summary = get_summary(comment_content)
             
             simple_metadata = {
                 "comment_id": comment_id,
@@ -65,11 +67,11 @@ async def get_comment_metadata(comment_id: str):
                 "file_url": "No attached document",
                 "file_name": "Does not apply", 
                 "file_size": "Does not apply",
-                # "word_count": word_count,
-                # "authors": authors,
-                # "tech_tools": tech_tools,
-                # "cited_case_laws": cited_case_laws,
-                "summary": summary,
+                "word_count": word_count,
+                "authors": authors,
+                "tech_tools": tech_tools,
+                "cited_case_laws": cited_case_laws,
+                # "summary": summary,
             }
 
             # store metadata

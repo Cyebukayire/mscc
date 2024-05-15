@@ -23,6 +23,13 @@ eyecite = "*"
 hyperscan = "*"
 install = "*"
 sentencepiece = "*"
+langchain = "*"
+google-cloud-aiplatform = "*"
+langchain-community = "*"
+langchain-google-vertexai = "*"
+config = "*"
+fpdf = "*"
+reportlab = "*"
 
 [dev-packages]
 ipykernel = "*"

@@ -100,6 +100,14 @@ def extract_text_from_word_document(url):
             convert_docx_to_pdf(docx_filename, pdf_filename)
 
             text = readPdfFile(pdf_filename)
+
+            # Delete created files
+            if os.path.exists(pdf_filename):
+                os.remove(pdf_filename)
+                
+            if os.path.exists(docx_filename):
+                os.remove(docx_filename)
+
             return text
         
         else:
