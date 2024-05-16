@@ -1,0 +1,1 @@
+The legal status of AI generated media must be assessed with knowledge of the training data that the AI was fed. If the training data contains copyright materials, then the generated material should, logically, not be something that the owner of the AI can claim as their own.

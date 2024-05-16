@@ -1,0 +1,1 @@
+AI/ML created works should not be eligible for either copyright, trademark or patent protection. Further any of their creations should be considered publicly owned unless the people/company that trained the AI/ML models can prove that 100% of the training data was data that they had written authorization to use. 

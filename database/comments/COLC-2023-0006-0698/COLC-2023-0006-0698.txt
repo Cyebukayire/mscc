@@ -1,0 +1,1 @@
+Any AI developer/provider should have to document all training data used and provide appropriate compensation to the owners of said data, unless the data are in public domain.  This should have to be done prior to using the training data and be the responsibility of the AI developer/provider to clear, not of the data&#39;s owner to request a stop.

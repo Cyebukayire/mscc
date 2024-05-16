@@ -1,0 +1,1 @@
+Calling it &quot;artificial intelligence&quot; is false advertising. It doesn&#39;t process any information, it&#39;s only a predictive model based on fed-in data. And there needs to be a LOT of regulation around how these programs are obtaining that data, because at this point it looks like most of it is stolen from working people such as authors and artists.

@@ -1,0 +1,1 @@
+Artificial intelligence should require permission for any materials used for training it, and all of the material it is trained on should be disclosed as well. There should be restrictions in what applications can use artificial intelligence, for example internet search results or news articles should not be written by AI since these are easily misunderstood to be facts.
