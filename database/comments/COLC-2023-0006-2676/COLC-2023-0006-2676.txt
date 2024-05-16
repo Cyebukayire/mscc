@@ -1,0 +1,1 @@
+AI art grabs content made by real people (often without their permission) to parse together something else, it is important to restrict its sources so that only willing artists are involved in an AI&#39;s dataset

@@ -1,0 +1,1 @@
+Many machine learning neural networks collect data (images, text, sound files) from artists across the internet with no regard for the consent of these artists. As these artists are never contacted by the AI and asked for consent to use their data to feed the neural network, copyright over the content of these images, text, and sound files, is ignored.

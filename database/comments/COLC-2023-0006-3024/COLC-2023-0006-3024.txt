@@ -1,0 +1,1 @@
+I don&rsquo;t think social media should have users &ldquo;opted in&rdquo; to ai data training by default. What if the social media user uploads images of copyrighted content and the ai program just uses that work without informing the copyright holder?

@@ -1,0 +1,1 @@
+AI is a tool, like any CGI(computer generate imagery) tool beforehand. Neither is it new - diffusion-based denoisers have been used in 3d rendering software for a decade already. Pushback against AI doesn&#39;t make sense if it doesn&#39;t include pushback against 3d renderers - and oposing them is simply ridiculous. 

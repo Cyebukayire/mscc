@@ -1,0 +1,1 @@
+Anything made with AI should be under copyright of the person using it. As long as one does not share, they should not be held accountable for what the AI produces, but if it is shared publicly it is under the same copyright laws as if the person who generated it wrote it themself. The prompt should be taken into account the same way the AI output is.

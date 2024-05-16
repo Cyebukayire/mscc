@@ -1,0 +1,1 @@
+The Internet is rife with rampant copyright violations.  AI systems should not be trained on content scraped from the Internet.  Any content not in the public domain should not be fed into the training of AI systems without acquisition of proper copyright clearance from the copyright holder.

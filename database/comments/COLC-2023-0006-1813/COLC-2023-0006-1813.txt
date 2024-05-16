@@ -1,0 +1,1 @@
+What is generally referred to as &ldquo;AI art&rdquo; depends on scraping images from the internet to create a composite image, often without the knowledge or consent of the creators of the original images. This may read like an oversimplification, but AI art is theft. For this reason, the people who use generative AI to create images should not be able to copyright said images.
