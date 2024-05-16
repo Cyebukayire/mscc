@@ -1,0 +1,1 @@
+At it&#39;s current state, all AI art (whether visual, written, etc) is at best derivative, at worst derivative and biased. Plus, the data scraping used to feed the AI algorithm relies on works created by others, without giving credit or attribution. As such, AI works are not truly original and do not merit copyright protection.

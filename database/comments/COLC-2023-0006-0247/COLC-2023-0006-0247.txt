@@ -1,0 +1,1 @@
+Published or unpublished that is copyrighted by a particular author or author&#39;s estate should not be used to &quot;train&quot; large-language models unless the owner of the LLM acquires specific permission and pays the rights holder for the use of the work. 

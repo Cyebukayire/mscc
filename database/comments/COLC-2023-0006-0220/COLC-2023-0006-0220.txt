@@ -1,0 +1,1 @@
+I believe that AI systems should be required to record and produce references their sources for any generated works. These sources should be made public unless they are material purchased from copyright owners in good faith.
