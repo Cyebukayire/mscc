@@ -1,0 +1,1 @@
+Permission should need to be obtained from copyright holders before copyrighted content can be used to train an AI model, and AI generated content should not be copyrightable.

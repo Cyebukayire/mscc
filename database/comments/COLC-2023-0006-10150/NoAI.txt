@@ -1,0 +1,89 @@
+To whom it may concern:
+
+I am writing in response to the Notice of Inquiry regarding Copyright
+and Artificial Intelligence. I am of the opinion that, in its current
+state, the use of most generative A.I. systems is an obvious violation
+of copyrights, on a massive scale.
+
+The simplest argument I can find in favor of my cause is this: It has
+already been decided that rights of authorship will not be granted to
+machine generated works for lack of human authorship. Why then, are we
+even debating about extending to them the rights of Fair Use? Is fair
+use not a right granted to human authors to use parts of another
+author's work under certain circumstances? If a machine has no rights of
+authorship, then it should go without saying that it has no right to
+fair use.
+
+But lets put that aside, and get a bit more complicated. Consider the
+attached image of Mickey Mouse someone generated with Stable Diffusion.
+Everything about the image that is recognizable as Mickey Mouse was
+copied directly from training images scraped from the internet. It is
+probable that the vast majority of those Mickey Mouse images were
+Disney's copyrighted Intellectual Property. Meaning someone deliberately
+programmed the A.I. to infringe on Disney's IP. The only reason it knows
+how to depict Mickey Mouse is because it was programmed to manufacture
+images of Mickey Mouse. It is my understanding of copyright that Disney
+alone should have the right to manufacture images of their IP, or to
+program a machine to do so. Am I wrong? And if no copyright can be
+granted to A.I. images, does that mean that A.I. users can flood the web
+with public domain Mickey Mouse images? Whaat effect does THAT have on
+Disney's rights?
+
+A.I. generated images seem to spread quickly. I've seen dozens of
+facebook artist groups get inundated.Within weeks you have to wade
+through dozens of A.I. images just to see a single non-A.I. image. And
+soon after that, the non-A.I. posters stop posting, and the group is
+just hundreds of A.I. generated images every day. Given that level of
+rapid proliferation, it is easy to imagine Disney being rapidly
+overwhelmed with so much IP infringement that they would lack the
+wherewithal to properly defend it. Single artists and smaller concerns
+are already facing that situation. A.I. is already making it harder for
+human artists to reach an audience. It is already flooding the discourse
+so much that it is devaluing the work of actual humans.
+
+Or consider the case brought by Getty Images v Stability A.I. Getty
+licenses their image catalog for creative use. Stability did not pay for
+the use of Getty's images, in fact they used watermarked images to
+"train" their A.I.. That's a flagrant violation (in my opinion), but it
+doesn't stop there. Getty has enough images, and the wherewithal, to
+create their own image generator, trained solely on their images, that
+they could sell access to. They have been denied that now, by Stability
+using the Getty catalog without permission. Getty clearly has the right
+to chose which image generator (if any) can be "trained" with their
+copyrighted images. And if Getty does, if Disney does, then doesn't
+everyone whose works of authorship were used without permission? I
+certainly think so.
+
+On the topic of appropriate levels of transparency and disclosure with
+respect to the use of copyrighted works, my opinion is as follows: It is
+my understanding that these systems are modified
+compression/decompression algorithms. That in addition to storing
+compressed versions of the training images, they also save metadata for
+each image (or relevant group of pixels) to let it know for instance
+what portion of the image represents the word "car". (I understand it
+treats text data in a similar fashion). It should not be difficult
+therefore, to require metadata be stored stating the author of the
+original work and license status, for the purposes of calculating that
+author's contribution to a generated work and compensating them
+accordingly. I would imagine that well known authors and artists might
+opt for a different license, one where if say, you wanted a painting in
+the style of Frank Frazetta, the Ai user might pay a seperate fee per
+image generated, that would go to the Frazetta Estate. IIt should be a
+system that recognizes, benefits, and rewards authors of original works,
+not a system that takes advantage of them for the financial gain of a
+small few.
+
+For after all, the founding fathers included copyright in article 1 of
+the constitution "To promote the progress of science and useful arts".
+So we need to ask ourselves if we want to continue to promote HUMAN
+progress by creating a system where human creators benefit from Ai's use
+of their copyrights, or do we want to promote machine progress by giving
+them the power to infringe on human rights with no consequences? Do we
+build a better future for humans, or for robots and their coprorate
+masters?
+
+I'm on the side of the humans. For purely selfish reasons.
+
+Sincerely,
+
+Lazlo J. Luongo

@@ -1,0 +1,263 @@
+1.  The purpose of creation is to engender an emotional and/or
+    intellectual response in the creator and/or the audience stemming
+    from human creation. Therefore beyond passing novelty there is not
+    only no need for general purpose generative tools, but also the
+    past, current, and future harms far outweigh any potential benefits.
+
+2.  Yes, it has already been replacing work in creative and tech
+    industries.
+
+3.  To list a
+    few: https://commentbfp.sp.unipi.it/daniela-tafani-what-s-wrong-with-ai-ethics-narratives https://bristoluniversitypress.co.uk/resisting-ai https://www.artnews.com/art-news/news/kim-jung-gi-death-stable-diffusion-artificial-intelligence-1234649787 https://www.wired.co.uk/article/maori-language-tech https://www.404media.co/how-the-surveillance-ai-pipeline-literally-objectifies-human-beings https://www.theatlantic.com/technology/archive/2023/10/ai-chuck-schumer-forum-legislation/675540
+
+4.  China’s laws are a start but don’t go far
+    enough https://www.loc.gov/item/global-legal-monitor/2023-07-18/china-generative-ai-measures-finalized International
+    consistency is important insomuch as the generated works are easily
+    accessible via internet all over the world.
+
+5.  New legislation may be warranted regarding specific nuances among
+    non-generative or extremely limited generative “AI” programs (see
+    Anna Ridler’s “Myriad (Tulips)”. However, as Tafani points out in
+    her paper (3.1) existing laws also cover many of the pertinent
+    issues.
+
+6.  Any and all materials available via digital access or future digital
+    access are vulnerable to become training materials. The vast
+    majority are obtained through mass, programmatic scraping.
+
+    1.  See 6. Leveraging academic fronts is a well-known method for
+        corporations to build up a usable body of training material.
+
+    2.  Not only is an uncountable amount of copyrighted work being used
+        (as, by nature of the process to publication, there is a high
+        level of curation and finish involved), but also private data
+        and PII such as personal family photos and medical records (e.g.
+        in the LAION datasets).
+
+    3.  While noncopyrighted material is also present in datasets,
+        corporations have acknowledged that such work is not enough to
+        create a substantial general purpose generative “AI” as they
+        have repeatedly refused to create such an option. To my
+        knowledge. Training material is not created nor commissioned
+        OUTSIDE OF the extent to which underpaid workers categorizing
+        data could be considered to fall under this definition.
+
+    4.  At minimum, developers retain some subset of training data via
+        the trained model. It is also likely that at least some
+        developers hold on to at minimum a fraction of their training
+        data or their model as a contingency plan in case they somehow
+        lose the ability to acquire more data or are ordered to destroy
+        their models.
+
+1.  They are trained via classifiers and computer vision, but I’m sure
+    others have elaborated in much more detail already.
+
+    1.  While the way these programs classify and organize data is
+        extremely distinct from the ways in which humans learn, they
+        would not be able to reconstitute pixels in the shape of, for
+        example, a cat, without training data and classifiers (both of
+        which must be significantly manually started).
+
+    2.  They are stored as relationships of pixel arrangements under
+        certain classifiers.
+
+    3.  To my knowledge it is possible but developers are motivated to
+        develop programs in which this is difficult and/or represent
+        these capabilities as impossible.
+
+    4.  If there is not a way of making reasonable inferences regarding
+        provenance, the models must be destroyed.
+
+1.  Due to the nature of digital information, there is no circumstance
+    under which fair use can be guaranteed, much less justified when
+    measured against the costs.
+
+    1.  This question is orthogonal, as general purpose generative “AI”
+        should not exist.
+
+    2.  See the above
+
+    3.  General use generative “AI” models should not exist; Further,
+        stricter regulations must be created to ensure corporations do
+        not leverage academic methods in bad faith ways to game the
+        system.
+
+    4.  The only way in which the volume affects the fair use is
+        developers can further convince the general public via
+        obfuscative arguments that they are not stealing data.
+
+    5.  We should not reach a point wherein we are weighing the two
+        against each other; However should we reach that point, the
+        power imbalance between a funded corporation and an individual
+        creator should be heavily considered.
+
+1.  Opt out is the system that already exists and has gone above and
+    beyond in proving itself untenable.
+
+    1.  Affirmative and detailed consent should be required in all cases
+        (see the aforementioned cases of medical data being included for
+        example). Further, we should not get to the point where people
+        are being asked to opt in, as the power imbalance between
+        corporations and individual workers would be used to leverage
+        individuals into opting in.
+
+    2.  Opt out should not be considered.
+
+    3.  It is feasible, and has not been done in the past because it
+        requires labor. If developers feel obtaining enthusiastic and
+        well-informed consent is out of reach, they should not be
+        permitted to work with such data.
+
+    4.  Developers should be forced to destroy models, pay remunerative
+        damages, and face consequences in keeping with established
+        precedents. Further, the exponential and permanent nature of
+        internet-distributed data and software should be a significant
+        factor in these decisions.
+
+    5.  Yes; Otherwise the creators have no means of objecting to such
+        humanity and culture-destroying, as already shown. General use
+        generative AI models (as in any model not created to, e.g.
+        facilitate an extremely niche and specific use case that would
+        not otherwise replace a humans labor, as per the aforementioned
+        “Myriad”) should be illegal.
+
+1.  No.
+
+    1.  No.
+
+    2.  No. As we’ve seen in existing cases (Adobe Stock for example)
+        impediments are necessary.
+
+    3.  I’m not sure what a compulsory licensing regime means; however,
+        individual creators need much stronger protections whether
+        working for themselves or for hire.
+
+    4.  No.
+
+    5.  Possibly, but probably not.
+
+1.  At minimum, exponential harms due to biases from the statistical
+    averages betrayed by the data sets, as well as an author’s work
+    being used in a way contradictory to their intent. While all workers
+    involved in the development of a product are theoretically
+    responsible, the company’s leadership has undue power in the
+    situation and ultimately should be held the most responsible, in a
+    way such that they cannot handwave legal protections as though they
+    were de facto licensing fees, but legitimate consequences to be
+    feared.
+
+2.  See 7.3.
+
+3.  Ideally, it should strongly discourage and eliminate development and
+    adoption of such technologies.
+
+4.  They will massively destroy financial incentive to pay fields which
+    have already been severely undervalued for years, with no valuable
+    upside.
+
+5.  If permitted to create generative “AI”, developers should be
+    required to collect, retain, and disclose records, and not be
+    permitted to create such records without enthusiastic, informed, and
+    nuanced consent. Creators of datasets, should they be functionally
+    distinguishable, should be held to the same standards.
+
+    1.  The works, authors, permissions granted, and ways in which the
+        work should be used at a minimum
+
+    2.  Creators at a minimum, and any users to the extent they will
+        also be held responsible for responsible and ethical uses (not
+        just via legal but also moral definitions)
+
+    3.  Depends on the use case, but potentially they should retain
+        roughly equal obligations. Otherwise the incentive for bad faith
+        use on one side and/or the other is too great.
+
+    4.  It would probably be great, as responsibly collected and
+        classified datasets, even on a small scale, require massive
+        amounts of often traumatic labor, which should be more than
+        fairly compensated.
+
+1.  It should be 100% obligated to proactively get enthusiastic,
+    nuanced, and informed consent in a method in which the creator
+    maintains greater power on their side of the transaction, and are
+    proactively informed as to all potential use cases and violations.
+
+2.  See Tafani’s paper (3).
+
+3.  The human should never be considered the creator outside of
+    extremely niche, bespoke creations such as “Myriad”.
+
+4.  Generated material should not be considered eligible for copyright
+    protection.
+
+5.  Legal protection should not be considered, nor is it necessary to
+    encourage or incentivize development of such technologies as proved
+    by their existence.
+
+    1.  If protection is desirable (which it is not), it should be
+        greatly distinct to existing copyrights for humans.
+
+1.  No to all questions.
+
+2.  Assuming I’m understanding correctly that the question is whether
+    generated works based on datasets containing a particular work
+    should have a negative impact on the protections provided to that
+    work, my answer is no, it should not be allowed to do so.
+
+3.  Yes, as this would not be different in the case of existing
+    copyright law.
+
+4.  The developers must be forced to make available said data; However,
+    as per 23, similarity should also be taken into account. Developers
+    of such technologies should not be able to claim that with a
+    functionally “infinite” number of output possibilities, similar
+    output is bound to happen and therefore does not constitute
+    infringement, especially as generated output is, by nature,
+    incapable of possessing creative intent.
+
+    1.  All parties should be considered liable, generally with the
+        heaviest responsibilities being on the model and system
+        developer end.
+
+1.  Yes, insomuch as it may be harder to hold those parties responsible
+    due to a myriad of factors (including potentially much less
+    financial resources).
+
+2.  I don’t know why any exceptions should be made for computational
+    theft.
+
+3.  Labor theft and extortion at all steps of the development and usage
+    process.
+
+4.  Absolutely, it must always be indelibly labeled as such.
+
+    1.  The developers should be held ultimately responsible, with users
+        held responsible for not circumventing such labeling.
+
+    2.  Yes, ensuring such labeling is an arms race; One more reason
+        such technology should not be permitted to exist.
+
+    3.  A level of consequence that would meaningfully prevent offending
+        parties or would-be offending parties from considering such
+        actions in the future.
+
+1.  See28.3: It’s an arms race.
+
+2.  The rights belong indelibly to the person and should not be
+    transferable to corporations nor products. There is no way to
+    guarantee such data or material would not be used in a way that
+    would materially, and potentially permanently, harm the person the
+    data is sourced from.
+
+3.  I’m unclear on the meaning of this question. “AI” generated material
+    of the likes described in the notice should not be afforded any
+    rights.
+
+4.  Everyone should be eligible for such protections against generative
+    products.
+
+5.  Yes, as digital media can be exploited across any jurisdiction.
+
+6.  The extreme likelihood (and proven) potential of adversarial use
+    cases intended to cause malicious harm to the sourced/creator and/or
+    subjects of generated output

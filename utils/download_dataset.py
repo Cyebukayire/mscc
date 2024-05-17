@@ -53,7 +53,7 @@ async def download_comments(db_file):
             data = json.load(file)
 
         # Load comment content
-        for i in range(9089, 9301):
+        for i in range(10376, 10377):
             comment_id = f"COLC-2023-0006-{i:04d}"
             print("ID ", comment_id)
 
@@ -74,13 +74,16 @@ async def download_comments(db_file):
             # Extract comment content
             has_attachment = 'included'in comment_object
             comment_content = comment_object['data']['attributes']['comment']
-            if comment_content is None:
+            if comment_content is None: # Check if there is no comment
+
+                # Check for extra attached files in the comment
                 if comment_object['data']['attributes']['fileFormats'] is not None:
                     attachment_obj = comment_object['data']['attributes']['fileFormats'][0]
                     file_url = attachment_obj['fileUrl']
                     folder_path = create_path(folder_name=comment_id)
                     download_attachment(file_url=file_url, folder_path=folder_path, file_name=comment_id)
                 
+                # Raise an error if the comment has no any content or attachment
                 elif not 'included'in comment_object:
                     raise ValueError(f"An error occurred: {str(comment_id)} has neither comment nor attachment")
             

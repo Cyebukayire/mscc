@@ -1,0 +1,49 @@
+1. There is a great deal of anecdotal information on social media about people losing their jobs when their employers decide it would be cheaper to use AI than to pay humans to create graphic or written materials. The company I work for is starting to look into using AI to "help copywriters"; I recently attended a demo in which marketing language was automatically generated in seconds. I am a former copywriter who now works in marketing technology. I have already seen examples at my workplace of large departments getting downsized after technology was streamlined. To me this sounds like it will result in copywriters losing their jobs.
+
+While I do think there is value in automating tasks that humans dislike, I do not think decreasing the number of creative roles available to human beings will ensure Americans retain the right to "the pursuit of happiness". This will make the jobs available to humans less enjoyable and meaningful. It will also put livelihoods in danger, and already has.
+
+2. While I haven't seen it happen yet, based on the examples of factually inaccurate AI responses to basic questions I have seen, it is very possible that AI-produced product imagery and product descriptions could include misleading information. This would put my company legally at risk. I don't think it would be wise to depend solely on AI to create marketing content (or any content at all, really).
+
+An executive from a vendor my company works with recently remarked that she uses ChatGPT to help her make decisions. She feeds it all the documents she should be reading herself and asks it questions. If this practice becomes commonplace, it could have serious repercussions on the economy.
+
+4. International consistency would be ideal, but if it cannot be achieved, at the very least Americans should be protected from having their work used in datasets by people or organizations in other countries, even if that work is posted online.
+
+5. Is new legislation warranted to address copyright or related issues with generative AI? If so, what should it entail? Specific proposals and legislative text are not necessary, but the Office welcomes any proposals or text for review.
+
+I believe legislation protecting living creators/copyright holders from having their style copied by AI is more than warranted. However, I would caution against wording that might infringe on fair use. It should still be legal for people to create art based on, inspired by, or paying homage to existing art. I think the distinction is whether or not they then make money that might otherwise have gone to the creator of the original.
+
+6.1. It appears that many builders of AI technology consider the entire internet a dataset, with no regard for authorship. I do not agree that I am implicitly giving permission for anyone to take my work and make profit on it simply because I have posted it on the internet.
+
+9. I believe copyright owners should have to affirmatively consent (opt in). No works should simply be assumed to be available for a dataset.
+
+9.1. All uses, but again I would be careful with language so as to not unintentionally include fair use human transformative works. 
+
+9.4. If an objection is not honored, what remedies should be available? Are existing remedies for infringement appropriate or should there be a separate cause of action?
+
+9.5. Yes. If the entity they made the work for is the one wanting to use it to train AI, permission should have been covered in the original contract for the work. If not, they should need to approach the creator for permission before using the work in ways outside the original contract. If it's someone outside that relationship, then they would need the permission of both the creator and the owner of that specific work.
+
+10. I think licensing and royalties are great ideas. In my ideal world creators would receive a percentage of all profits made using the dataset.
+
+11. I would say the entity that plans to directly profit from the dataset is responsible for obtaining licensing: the company employing the model. If any individual employees get a bonus based on profits from employing the model, part of that bonus should be paid into the profits going to the creators of works in the dataset. Other employees whose wages aren't dependent on the model might be the ones who actually apply for the license, but they would not be culpable if a license was not obtained.
+
+12. You could conceivably use AI to individually compare an AI-generated work to works in its dataset and determine which is the "closest". However, I feel this would take a lot of processing power, and AI is already costing a lot environmentally. It would probably be better (definitely easier) to base profits on the percentage of works a creator has in the dataset.
+
+13. Hopefully it would help people keep their jobs by making it less attractive to replace them with AI.
+
+15. Yes, and yes. However, I believe all models where up-front agreement has not been obtained should be discarded. No one should be in the position of having to figure out where they scraped data from. Everyone should know exactly what data they have and its provenance. Disclosures should only be necessary in that agreements and/or licenses have been obtained and the records of such are readily available.
+
+15.3. Whoever used those AI systems would pay the same royalties as those who used the original AI system with that model.
+
+16. Copyright owners should never not know that their work has been used.
+
+18. No. Commands/prompts are equivalent to guidance given by clients to artists. They do not constitute creation.
+
+20. No, AI-generated material that has not been manipulated significantly by a human being (beyond "prompts") should not be copyrightable.
+
+21. Protection would not “promote the progress of science and useful arts”. It would harm the arts.
+
+25. The developer if their development work included building a dataset including that copyrighted work or others by its creator; end users of the system if their prompts made direct reference to that copyrighted work or its creator.
+
+28. Yes. The "owner" of the AI-generated material should be responsible for identifying it as such. Failing to label/removing a label should incur not only a fine, but a prohibition from using AI for a significant period of time.
+
+32. There absolutely should be protections against an AI system generating outputs that imitate the artistic style of a human creator. At the very least this should apply to all living creators. This should also apply to all types of works, including physically acted and spoken.

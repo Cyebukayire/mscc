@@ -1,0 +1,29 @@
+Michael Paciullo
+
+Comments on Artificial Intelligence and Copyright
+
+I am an undergraduate student in computer science and mathematics. I am a hobbyist composer and essayist. 
+
+1. Copyright is what enables rightsholders to profit from their creative works exclusively, providing an incentive for authors to create original works in order to make a living. Since an AI system cannot hold rights, be an originator of human creativity, or create copyrightable work, half this problem is solved. In order to keep exclusive rights to a work, human artists must be hired to create said work. However, this does not protect human artists from having their works trained on to develop future tools. I do not think copyright is an effective tool to solve this issue alone. A compulsory license should be considered for training in order to allow artists to profit from all uses of their works, protecting them from uncompensated use by either the company that employs the author, or outside entities. Outside the scope of copyright, stronger labor rights are needed to allow contract artists to unionize and negotiate the use of generative AI in the workplace, if they so choose.
+
+I am using the term "AI" here out of convenience and precedent. The current systems of AI are neither sentient nor autonomous; they are "intelligent" in the sense an advanced search engine is intelligent. Machine learning is an applied statistics tool, not an autonomous agent for art creation. A human is always required to use the generative AI tool in some manner to create a work. Hence, generative AI does not automate; it deskills. The greatest threat to workers is not necessarily the training of a generative AI system; it is the increased incorporation of AI tools used to undermine their authorship in the workplace, in order to justify lower wages.
+
+This threat exists regardless of whether an author has exclusive rights to train, as generative AI can be developed on publicly-available datasets either in the public domain or with Creative Commons Attribution licenses, and the original individual authors do not hold rights to their work under circumstances where work-for-hire applies. 
+
+3. https://siepr.stanford.edu/publications/policy-brief/does-compulsory-licensing-hurt-innovation
+
+This brief by Petra Moser and Alessandra Voena from Stanford University is a survey of the effects of compulsory licensing for pharmaceutical patents. As shown, "there is little evidence that compulsory licensing has any effect on the patenting activity of pharmaceutical firms", and "compulsory licensing supports domestic invention.
+
+https://lawforbusiness.usc.edu/how-the-compulsory-licensing-system-has-impacted-sampling-in-todays-music-industry-and-potential-calls-for-reform/
+
+In the realm of copyright, a compulsory license has been proposed as a compromise for music sampling. This will further free expression while providing remuneration to creators of the works being sampled, protecting the rights of both new and established artists.
+
+5. My main legislative proposals are a compulsory license for machine learning on copyrighted works, with an exemption for academic purposes, which should not require a license, and opted-out works due to personal subjects, such as medical or family photographs. Outside of copyright, I support the Protect Working Musicians Act of 2023, which will allow working musicians to unionize and negotiate collectively with generative AI companies. I would support a similar measure for independent artists and other visual effects workers.
+
+7.1. I defer to Kit Walsh's article for the Electronic Frontier Foundation about how copyright applies to AI art. The main point of potential infringement is the scraping of images from the web, which is considered fair use. The final model does not store images without extremely precise attacks, and the use of copyrighted works may be considered de minimis. https://www.eff.org/deeplinks/2023/04/how-we-think-about-copyright-and-ai-art-0
+
+7.2. While machine learning has been described as "compression", this is mostly true in an abstract sense. It is impossible to extract an image used for training without a very precise attack on a duplicated iamge, such as the one shown here. https://arxiv.org/abs/2301.13188 
+
+7.3. There is prior research for "unlearning" in text-to-image diffusion models, which is currently the dominant technology used in generative AI for visual art. This takes a pre-existing model and outputs a new model with the specified concept removed. Although it faces "difficulty with abstract concepts", it works in 30 seconds for certain concepts. https://arxiv.org/abs/2303.17591
+
+7.4. Not necessarily. Commonly-used "evidence" of copyrighted material being used involves summaries of the copyrighted material being presented from a generative AI for language; however, summaries of such a nature are freely available on Wikipedia. A "multimodal" generative AI, one that can incorporate both text and images, may be able to combine a copyrighted character such as Mickey Mouse with a detailed textual description of the character, written under fair use for the purposes of commentary or crticism, to produce a somewhat-accurate depiction of said character, without necessarily being trained on an infringing work.

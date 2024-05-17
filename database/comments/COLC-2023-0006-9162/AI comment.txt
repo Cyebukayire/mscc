@@ -1,0 +1,88 @@
+I am an engineer and designer. 
+
+I work in, and have hobbies both in creative and technical areas. I enjoy advancements in technology and gadgets. 
+
+Art is one of my biggest interests and concerns as it pertains to this field, so that is what I will be most focused on, as generative AI impacts the art field significantly. I would like to offer my perspective. 
+
+I have spoken to professionals working in creative and technology fields to gain a greater understanding and insight about this topic, and have done reading online.
+
+My stance, personally and professionally, pleads for the use of AI to be heavily regulated and restricted, in these following areas:
+
+1. How AI (the tool) is allowed to be accessed and used by the average person.
+2. How the data input and output is used by the average person (layman). 
+
+
+I believe new legislation is more than warranted for generative AI. 
+These would be the proposals I would want to encourage. 
+
+
+1. There needs to be a heavy legal disclaimer attached to all forms of generative AI. 
+
+2. I believe accessibility of AI tools should be restricted from general public access. Alternatively, the AI tool itself needs to be approved and properly sanctioned prior to public use, to ensure that it is not used maliciously, or at least used in a controlled purpose and environment. (such as production for a film, or a scientific/educational purpose, as an example.)
+
+3. If currently existing AI generative tools cannot be restricted from use, there needs to be a legal requirement to aid understanding (presented in easy to understand terms to the layman user) that the creative labor and output of humans are in the machine’s database, often without consent, and that type of output cannot be used to make profit off of.
+
+As it stands now, anyone can search and use AI tools casually and freely, without a full comprehensive understanding of the repercussions and damage it can cause to an individual’s likeness, and a creator’s creations.
+
+4. Professionals that are already working in the technology or creative industry / sector should be prioritized for access to AI tools, as long as there is the same aforementioned understanding of the ethical responsibility behind the use of them.
+
+5. There should be a form of legal requirement that data being trained has explicit, legal permission and consent to be used from the owner, creator of the creative data, especially if the data in question makes up a significant and visible portion of the output. (over 25%). 
+
+6. If the data that was trained off of, does not have associated consent by the original owner, it should be punishable or illegal for an individual to be able to profit off of the output (assuming the output has visible signs of the original data).
+
+
+I will define some examples of what I believe are non-ethical, gray area, and ethical uses of generative AI.
+
+Unethical: A user inputting someone’s creation (such as a specific style of artwork, for example) into the machine without the artist’s consent or knowledge, to produce machine generations visibly and heavily based off of the artist’s style, and attempt to resell and profit off of the generations. 
+
+Unethical: A user inputting someone’s voice and likeness into the machine without the individual’s consent or knowledge, to produce a deepfake piece to scam and trick the person’s relatives.
+
+Gray: A user inputting thousands of artists’ creations into the machine without their consent and knowledge, to develop and create a completely new hybrid that blends all of their work together into something new as a creative experiment. It is more akin to a remix and the generations are not singularly identifiable to any of the source material. 
+
+Gray: A user inputting someone’s voice into the machine without their consent and knowledge, to produce fan material (such as a song cover or a story - purpose is a form of creativity or expression) that does not have malicious intention towards the owner of the voice.
+
+Ethical: Across the Spider-Verse Pipeline, where artists and designers were aware that AI was being used, and the data was being trained internally, with consent and awareness that the generation and output from the machine is used to help complete the movie in a timely manner.
+
+Ethical: An actor gave full consent for a company to use his voice in AI so that the machine generated likeness of his voice can still continue to be used in entertainment productions, postmortem.
+
+Here is my insight on what I generally think of AI in the long term, which highlights the crux of my concerns from the overall use of this technology. 
+
+If people continue to use AI to produce materials that resemble “human creativity”, (art, music, video, text, etc.) without ethical, legal limitations, repercussions, or proper protocol in place, I believe we would be advocating for the slow death of an essential part of humanity in the long-run.
+
+This includes, but is not limited to a dissolving of culture, creativity, imagination, critical thinking, human ingenuity, storytelling, cultivating skill and talent, and communication, both on an individual and societal level. 
+
+I am thankful that the judges have ruled that machine generated work cannot be copyrighted, because the human input is crucial to have a copyright, but we still have ways to go to properly protect people who produce creative work.
+
+Already, there are many glaring and concerning ethical issues in how the technology is being used in its booming nascency. The foundation of machine learning (AI) use, is fundamentally driven by human desire and input, and everything that AI is capable of generating, is off the tailcoats of work that is human made. 
+
+There is an “end product” that is desired (such as a finished work of art), and the machine can get one to that result faster than if the individual were to do so manually (via building own talent or hiring out skill).
+
+The technology of AI can generate coherent text, high quality artwork, music, videos, and convincing replicas of human voices, likely with the goal of improving efficiency in creative production and reducing labor in mind. In the short-term, I can recognize the immediate solutions that this technology can provide.
+
+Individuals, businesses, and companies alike will be able to hire less manpower to accomplish a specific goal, due to the power of AI, because the machine technically can achieve these results faster. Saves time, saves money. Less manpower means less expense. It may cut out the middleman in certain cases.
+
+However, this also contributes to a different, potential long-term problem; This may encourage direction towards a non-viable capitalism.
+
+On the business side of things, corporations and companies have to adhere to deadlines. Our society relies on production to run on clockwork, even down to entertainment being released. Skilled and creative labor has constantly been in demand and takes a certain amount of time and energy to accomplish by a human.
+
+The unregulated use of AI would only encourage an non-human outlook, and shape unrealistic expectations of skilled labor, where a human that does not possess a machine-like capability and work ethic will not be fit or eligible to work, because they are directly competing with the capability of AI output and machinery. 
+
+Due to the accessibility of the technology, I have already seen a few examples of abuse of the tool:
+
+- There are AI users who are already profiting off of machine-generated art that has scraped data from hundreds, if not thousands of human artists, because the generations, appearing to be human-made (especially to the untrained eye) can fly under the radar. (deviantART is a public example that has encouraged and supported AI art, and thousands of users quit the website after the AI boom, after its long standing reputation as an artist website)
+
+- There are AI users who are using machine-generated voices and video, taking the likenesses of people, to scam and deceive the victim’s family for money, propagating misinformation, defaming individuals, or furthering a malicious agenda.
+
+It’s highly concerning that this type of technology is easily accessible and used by individuals as young as children who can get online, and treat AI like a toy, without realizing the gravity of using this tool.
+
+I have already seen comments online saying they no longer want to go into art as a career, and see no future in it, because of how easily AI can now replicate artwork to resemble a creation that is high quality and human-made.
+
+The power of AI and machine-learning cannot be underestimated - it’s highly capable, and highly dangerous. With how fast AI itself can advance and iterate, due to design, it has the potential to spiral out of control and put people out of careers, and it is a legitimate danger to people working in creative, and some technology fields. 
+
+Technology historically has existed to help people lead easier and improved lives by solving problems.
+
+Technology also has the capability to advance very quickly, far faster than legalities and bureaucracy can catch up with.
+
+If the utilization of a tool as capable and powerful as AI can be lawfully regulated, especially in how the “likeness to human creativity” type of generation is used, I would be more agreeable towards the technology.  
+
+Because of the nature of how machine-learning works, I recognize it becomes a complicated ethical issue on copyright works, and I want to do my part to contribute my knowledge, experience, and insight towards helping creatives gain protections and rest easy knowing that their creations and work, as well as their careers and livelihoods, will be protected. Thank you for your time.

@@ -1,0 +1,1 @@
+It is beyond important that we protect the open source community and allow them to train open source AI models with public data. Putting the data behind a paywall will only ensure that large corporations and the gov own AI tech. For safety, seriously, this cannot be the case.

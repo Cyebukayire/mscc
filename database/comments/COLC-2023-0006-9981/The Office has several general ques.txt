@@ -1,0 +1,270 @@
+The Office has several general questions about generative AI in addition to the specific topics listed below. Commenters are encouraged to raise any positions or views that are not elicited by the more detailed questions further below.
+
+1. As described above, generative AI systems have the ability to produce material that would be copyrightable if it were created by a human author. What are your views on the potential benefits and risks of this technology? How is the use of this technology currently affecting or likely to affect creators, copyright owners, technology developers, researchers, and the public?
+
+This is extremely dangerous to copyright authors. AI just approximates information, copying it to a different resolution/dimension/representation, but it has the common problem of memorizing the data and just spitting it back out. Transformative use of the data as an AI application does not preclude copyright rights for individual components, and the definition of transformative is unlikely to have judicial understanding, given the dual complexity of the law and technology preventing critical analysis. Extensions of the law to the art, similar to patents, is impossible; and likely a general approach is more desireable about the definition of transformative, such as "excluding more than 3 exact words in a phrase more than 3 times" as a simple test that can sometimes inform similarity of data. These would coincide with existing copyright cases in precedent.
+
+2. Does the increasing use or distribution of AI-generated material raise any unique issues for your sector or industry as compared to other copyright stakeholders?
+
+Yea, and anyone who answers no is an idiot. It does not matter that it's generated, because the fact is, the generating and discriminating are 2 sides of the same problem - seeking a representation of information. The critical issue with AI is data and semiconductors creating additional capabilities that have consequences for society in all areas, mostly good ones at that.  
+
+3. Please identify any papers or studies that you believe are relevant to this Notice. These may address, for example, the economic effects of generative AI on the creative industries or how different licensing regimes do or could operate to remunerate copyright owners and/or creators for the use of their works in training AI models. The Office requests that commenters provide a hyperlink to the identified papers.
+
+I think you should be aware of adversarial AI, GAN, original paper from 2017 era, just showing the capability of AI to avoid detection from traditional or even other AI systems. This is an arms race for content producers, and youtube has seen early examples of these copyright avoidance approaches, because the old-school methods of flipping pixels or applying trivial audio effects, for example. By AI manipulation of pixels, the human brain might detect no issues with the picture, while the 
+
+4. Are there any statutory or regulatory approaches that have been adopted or are under consideration in other countries that relate to copyright and AI that should be considered or avoided in the United States?  (40) How important a factor is international consistency in this area across borders?
+
+5. Is new legislation warranted to address copyright or related issues with generative AI? If so, what should it entail? Specific proposals and legislative text are not necessary, but the Office welcomes any proposals or text for review.
+
+Training
+If your comment applies only to a specific subset of AI technologies, please make that clear.
+
+6. What kinds of copyright-protected training materials are used to train AI models, and how are those materials collected and curated?
+
+All types. Dumb question.
+
+6.1. How or where do developers of AI models acquire the materials or datasets that their models are trained on? To what extent is training material first collected by third-party entities (such as academic researchers or private companies)?
+
+Everywhere. USA.
+
+6.2. To what extent are copyrighted works licensed from copyright owners for use as training materials? To your knowledge, what licensing models are currently being offered and used?
+
+6.3. To what extent is non-copyrighted material (such as public domain works) used for AI training? Alternatively, to what extent is training material created or commissioned by developers of AI models?
+
+OMG dumb q.
+
+6.4. Are some or all training materials retained by developers of AI models after training is complete, and for what purpose(s)? Please describe any relevant storage and retention practices.
+
+7. To the extent that it informs your views, please briefly describe your personal knowledge of the process by which AI models are trained. The Office is particularly interested in:
+
+7.1. How are training materials used and/or reproduced when training an AI model? Please include your understanding of the nature and duration of any reproduction of works that occur during the training process, as well as your views on the extent to which these activities implicate the exclusive rights of copyright owners.
+
+The model copies the data and spits it out. Get a grip, this is easy stuff.
+
+7.2. How are inferences gained from the training process stored or represented within an AI model?
+
+The inferences are just copies of the data. Representation does not matter, it's just a copy, like a compression algorithm applied version of the data. No difference. 
+
+7.3. Is it possible for an AI model to “unlearn” inferences it gained from training on a particular piece of training material? If so, is it economically feasible? In addition to retraining a model, are there other ways to “unlearn” inferences from training?
+
+Unlearning is stupid, but you can improve an AI model. The models have holes, so trying to unlearn implies covering all holes, which is extremely difficult. It's like tesla trying to avoid all car accidents. Do not believe people who sell AI solutions. It is what it is. The world needs AI, no choice. But there are no solutions to make it technically safer or better. It just is what it is and nothing changes that in any material way. It's technical bullshit to think you can change AI fundamentally. It's just AI, and has been for 70+ years.
+
+7.4. Absent access to the underlying dataset, is it possible to identify whether an AI model was trained on a particular piece of training material?
+
+This is stupid and technically poor question. You cannot confirm equality of something without two parameters. So no, you cannot find something you don't define. That's stupid. What a dumb question. To determine if an AI was trained on data, you should court order the servers and determine what data they used. It will show the data has the same file names and the browser will show the download timestamp. That's how you prove that. To get a search warrant, you probably want to prove an extremely unlikely (e.g. DNA standard in law) of results, such as 9 rare words (> 30,000 most commonly used words in some recent twitter or news conversation corpus) occuring in a sequence with exact match. This stuff applies to all non-word AI. Data is data is data. Words are just symbols, see information theory before you regulate this stuff, for Gd sake...
+
+8. Under what circumstances would the unauthorized use of copyrighted works to train AI models constitute fair use? Please discuss any case law you believe relevant to this question.
+
+Any time you use someone else's data for AI, copyright law should have strict liability. The odds of not exactly copying the data are low for most non-transformative applications. The use of AI only applies after a model is assume to copy the data it learned from including all stages of the model physically touching the data in any digital system. The model is just a copy of the data. How you use the model should apply normal transformation approaches, independent of AI as a technical subject.
+
+8.1. In light of the Supreme Court's recent decisions in Google v. Oracle America   (41) and Andy Warhol Foundation v. Goldsmith, (42) how should the “purpose and character” of the use of copyrighted works to train an AI model be evaluated? What is the relevant use to be analyzed? Do different stages of training, such as pre-training and fine-tuning, (43) raise different considerations under the first fair use factor?
+
+I'm sure the Court is dumb as fuck and did nothing useful, so I got bored reading their technical opinions. The model is useful as a business entity. It does not matter what stage, it's just a model, and every stage makes the model better. It matters if it is used.
+
+8.2. How should the analysis apply to entities that collect and distribute copyrighted material for training but may not themselves engage in the training?
+
+They own the data and licenses. They need to determine if they want to share the data. Letting people train on your data is letting them copy it for use. That should include a full license to use the data for whatever purpose the model has.
+
+8.3. The use of copyrighted materials in a training dataset or to train generative AI models may be done for noncommercial or research purposes. (44) How should the fair use analysis apply if AI models or datasets are later adapted for use of a commercial nature?  (45) Does it make a difference if funding for these noncommercial or research uses is provided by for-profit developers of AI systems?
+
+Noncommercial is the exception. Protect copyrights you assholes. You cannot make something non-commercial magically into open license. If you use something non-commercially, you have to start over like everyone else. Assholes. AI does not let you break the law.
+
+8.4. What quantity of training materials do developers of generative AI models use for training? Does the volume of material used to train an AI model affect the fair use analysis? If so, how?
+
+They use bigger quantities than your entire agency did in it's lifetime. AI improves with more data, that's why smart people use it, because it's asymptotic, yo. No, AI does not let you break the law. No exceptions. Assholes. 
+
+8.5. Under the fourth factor of the fair use analysis, how should the effect on the potential market for or value of a copyrighted work used to train an AI model be measured?  (46) Should the inquiry be whether the outputs of the AI system incorporating the model compete with a particular copyrighted work, the body of works of the same author, or the market for that general class of works?
+
+4th factor? Throw out your dumbass supreme court fools. They don't know what a webpage is. Give guidance and ignore their crap. Handle it in appeals. It's fine, you can't let these justices fuck up, and they leave it vague to delegate to you. Go after it! Don't overregulate, assholes. You should use the broadest protections for copyright owner rights, so that any associate business value of even distant connection (e.g. same entity is enough to associate)
+
+9. Should copyright owners have to affirmatively consent (opt in) to the use of their works for training materials, or should they be provided with the means to object (opt out)?
+
+Yes, default object, and the provision should exist as default law. No action required.
+
+9.1. Should consent of the copyright owner be required for all uses of copyrighted works to train AI models or only commercial uses?  (47)
+
+Yes, assholes. AI is not a right to violate the Constitution
+
+9.2. If an “opt out” approach were adopted, how would that process work for a copyright owner who objected to the use of their works for training? Are there technical tools that might facilitate this process, such as a technical flag or metadata indicating that an automated service should not collect and store a work for AI training uses?  (48)
+
+The AI owners are responsible for their own data. FUCK YOU ASSHOLES. wtf is wrong with you. AI is not special, it's called the fucking law, and it applies to all technologies the fucking same. Assholes.
+
+9.3. What legal, technical, or practical obstacles are there to establishing or using such a process? Given the volume of works used in training, is it feasible to get consent in advance from copyright owners?
+
+Your idiocy is a technical obstacle. Throw these questions out, assholes.
+
+9.4. If an objection is not honored, what remedies should be available? Are existing remedies for infringement appropriate or should there be a separate cause of action?
+
+Follow the Constitution you traitors.
+
+9.5. In cases where the human creator does not own the copyright—for example, because they have assigned it or because the work was made for hire—should they have a right to object to an AI model being trained on their work? If so, how would such a system work?
+
+YOU PEOPLE ARE FUCKING IDIOTS. AI DOES NOT LET YOU HAVE EXCEPTIONS. ASSHOLES. You don't own data that isn't yours.
+
+10. If copyright owners' consent is required to train generative AI models, how can or should licenses be obtained?
+
+A fucking license. Assholes. It's a document. Ever read one?
+
+10.1. Is direct voluntary licensing feasible in some or all creative sectors?
+
+Yes, it's called the law, assholes. 
+
+10.2. Is a voluntary collective licensing scheme a feasible or desirable approach?  (49) Are there existing collective management organizations that are well-suited to provide those licenses, and are there legal or other impediments that would prevent those organizations from performing this role? Should Congress consider statutory or other changes, such as an antitrust exception, to facilitate negotiation of collective licenses?
+
+WTF IS WRONG WITH YOU. WHY DO YOU EXIST. OMG YOU'RE ALL DUMB. GO GET AN MBA, YOU ASSHOLES.
+
+10.3. Should Congress consider establishing a compulsory licensing regime?  (50) If so, what should such a regime look like? What activities should the license cover, what works would be subject to the license, and would copyright owners have the ability to opt out? How should royalty rates and terms be set, allocated, reported and distributed?
+
+You're making me want to move to China.
+
+10.4. Is an extended collective licensing scheme  (51) a feasible or desirable approach?
+
+I need tylenol from these questions.
+
+10.5. Should licensing regimes vary based on the type of work at issue?
+
+Puke.
+
+11. What legal, technical or practical issues might there be with respect to obtaining appropriate licenses for training? Who, if anyone, should be responsible for securing them (for example when the curator of a training dataset, the developer who trains an AI model, and the company employing that model in an AI system are different entities and may have different commercial or noncommercial roles)?
+
+Pay for data you fucking assholes
+
+12. Is it possible or feasible to identify the degree to which a particular work contributes to a particular output from a generative AI system? Please explain.
+
+Yes, 100% every time. You fucking idiots probably use TikTok to do your press releases. Go fuck yourselves. You make children look smarter than the CIA. You are so embarassing as a government agency, I am afraid to live in the same country as you.
+
+13. What would be the economic impacts of a licensing requirement on the development and adoption of generative AI systems?
+
+You are the economic impact. Buy me food now, you asshole.
+
+14. Please describe any other factors you believe are relevant with respect to potential copyright liability for training AI models.
+
+You should not be allowed to do anything, because you are dumb. You should try to join the special forces to prove you're a dumb and weak bitch, then get humility, and try to redo your approach of shutting the fuck up. Sic.
+
+Transparency & Recordkeeping
+15. In order to allow copyright owners to determine whether their works have been used, should developers of AI models be required to collect, retain, and disclose records regarding the materials used to train their models? Should creators of training datasets have a similar obligation?
+
+I want to sue you. Don't push me.
+
+15.1. What level of specificity should be required?
+
+I want to specify the type of pain I'll cause you in court, what level of detail do YOU prefer?
+
+15.2. To whom should disclosures be made?
+
+I'll disclose you my cock. This is figurative. I will not send my cock to the Fed. I mean to say: FUCK YOU ASSHOLES. Consistent with my 1st amendment. Unless you are single and birthing age, then I will send a pic, because I am lonely. Are you still reading this?
+
+15.3. What obligations, if any, should be placed on developers of AI systems that incorporate models from third parties?
+
+I obligate you to suck your honor's cock
+
+15.4. What would be the cost or other impact of such a recordkeeping system for developers of AI models or systems, creators, consumers, or other relevant parties?
+
+You pay for it bitch. No estimates. Your bill. Congress has no speaker. Good luck with budget. Hopefully you don't charge $36T. That'll piss a lot of people off.
+
+16. What obligations, if any, should there be to notify copyright owners that their works have been used to train an AI model?
+
+ALL THE RIGHTS OF US CITIZENS. Wait, if they used AI, then they cannot plead the 5th also. Throw that shit in there. Nice.
+
+17. Outside of copyright law, are there existing U.S. laws that could require developers of AI models or systems to retain or disclose records about the materials they used for training?
+
+Yes, dumbass, all the laws. You are a dumb dumbass ass, but you carry no weight.
+
+Generative AI Outputs
+If your comment applies only to a particular subset of generative AI technologies, please make that clear.
+
+You think you know what subsets area? Do you now how to put on your underwear in the morning? Why don't you start there.
+
+Copyrightability
+18. Under copyright law, are there circumstances when a human using a generative AI system should be considered the “author” of material produced by the system? If so, what factors are relevant to that determination? For example, is selecting what material an AI model is trained on and/or providing an iterative series of text commands or prompts sufficient to claim authorship of the resulting output?
+
+You people make me sick. I just ordered a pinyata of your agency and smashed it using a baseball bat, because I thought it would help me prepare for this response. It did. Lucky I did that. Next, I will sue you in a court of law. Bitch.
+
+You can own the generative AI output, or any AI output, if you own the data, because the model is just a copy of the data. Assholes. And no, you cannot rob a bank if you use chatgpfraud or any other microsoft marketing, you dumb cunts who destroy the US economy and starve babies. 
+
+19. Are any revisions to the Copyright Act necessary to clarify the human authorship requirement or to provide additional standards to determine when content including AI-generated material is subject to copyright protection?
+
+NO, assholes. 
+Model = copy of data = same license = no exceptions whatsoever = not asshole
+You = asshole
+
+20. Is legal protection for AI-generated material desirable as a policy matter? Is legal protection for AI-generated material necessary to encourage development of generative AI technologies and systems? Does existing copyright protection for computer code that operates a generative AI system provide sufficient incentives?
+
+No, you people make me sick. We need you to shut the fuck up. We don't need generative AI protection to steal other people's crap. Chatgpfraud is not AI and has no technical value to the future of society, except trying to make Microsoft shareholders richers by taking advantage of insecure dumb bitches like yourself that never paid attention in school but probably got good gpa's in art history. You're dumb, and you should not regulate AI.
+
+20.1. If you believe protection is desirable, should it be a form of copyright or a separate sui generis right? If the latter, in what respects should protection for AI-generated material differ from copyright?
+
+Judges should be impeached for listening to your regulations and violating equal protection laws and copyright laws
+
+21. Does the Copyright Clause in the U.S. Constitution permit copyright protection for AI-generated material? Would such protection “promote the progress of science and useful arts”?  (52) If so, how?
+
+NO. AI-generate material is the exact same and human created material. Assholes.
+
+Infringement
+22. Can AI-generated outputs implicate the exclusive rights of preexisting copyrighted works, such as the right of reproduction or the derivative work right? If so, in what circumstances?
+
+Yes, assholes, consistent with non-AI shit. You assholes.
+
+23. Is the substantial similarity test adequate to address claims of infringement based on outputs from a generative AI system, or is some other standard appropriate or necessary?
+
+Use the same standard you assholes.
+
+24. How can copyright owners prove the element of copying (such as by demonstrating access to a copyrighted work) if the developer of the AI model does not maintain or make available records of what training material it used? Are existing civil discovery rules sufficient to address this situation?
+
+Proving this is difficult sometimes. But can be done from the probabilistic analysis of the data in some obvious situations. You should get a warrant for the servers to make a real case if you cannot prove obvious shit.
+
+25. If AI-generated material is found to infringe a copyrighted work, who should be directly or secondarily liable—the developer of a generative AI model, the developer of the system incorporating that model, end users of the system, or other parties?
+
+Consistent with normal laws. 
+
+25.1. Do “open-source” AI models raise unique considerations with respect to infringement based on their outputs?  (53)
+
+This is a dumb question. Obviously open source just means not checked carefully for copyright. But that might be fine for article 230 purposes for "computer user service" such as a web site or app
+
+26. If a generative AI system is trained on copyrighted works containing copyright management information, how does 17 U.S.C. 1202(b) apply to the treatment of that information in outputs of the system?
+
+SAME
+
+27. Please describe any other issues that you believe policymakers should consider with respect to potential copyright liability based on AI-generated output.
+
+Copyright is not the issue. Overregulation clearly is. The issue with AI is not copyright, it's the things that smart people discuss, not the news idiots like you.
+
+Labeling or Identification
+28. Should the law require AI-generated material to be labeled or otherwise publicly identified as being generated by AI? If so, in what context should the requirement apply and how should it work?
+
+Not consistent with anything special. Obviously, the expectations of people are always necessary for false images that endanger or have false declarations, etc. Nothing special about AI. Deep fakes representing humans have a defamation and other risks implicit, and are a good examples of requirements to get permission and label, otherwise election interference and other issues will exist such as a reputation harm. This is not a AI issue, just happens to be that AI can make this stuff.
+
+28.1. Who should be responsible for identifying a work as AI-generated?
+
+The owner. No one else can. You are dumb people.
+
+28.2. Are there technical or practical barriers to labeling or identification requirements?
+
+Yes, font choice, by the owner.
+
+28.3. If a notification or labeling requirement is adopted, what should be the consequences of the failure to label a particular work or the removal of a label?
+
+Warning for retail. Conciliation before court. Court if unresponsive to requests or repeating behaviors after warnings. Civil damages, injunctions, public reports.
+
+29. What tools exist or are in development to identify AI-generated material, including by standard-setting bodies? How accurate are these tools? What are their limitations?
+
+The CIA does this. This is an arms race. Whatever tools you use, I can beat them with my Nvidia laptop. You have no shot... So let's stop playing games here. Dumb fucks.
+
+Additional Questions About Issues Related to Copyright
+30. What legal rights, if any, currently apply to AI-generated material that features the name or likeness, including vocal likeness, of a particular person?
+
+You cannot defame, endanger, mislead, obscene, etc. The obvious risks here are a threat to society. Actions to cease any deep fakses is a necessity, but not as bad as TikTok or whatever. It's just a threat. Meta deals with this stuff every day from Russia. Ask them for help. You are too dumb to do this. They will help, they do not want dumb people making regulations, like yourselves. Just ask them. Assholes...
+
+31. Should Congress establish a new federal right, similar to state law rights of publicity, that would apply to AI-generated material? If so, should it preempt state laws or set a ceiling or floor for state law protections? What should be the contours of such a right?
+
+It should enforce the existing laws. Likeness should be owned by individuals. AI is not special. It's just a capability, not a legal exception.
+
+32. Are there or should there be protections against an AI system generating outputs that imitate the artistic style of a human creator (such as an AI system producing visual works “in the style of” a specific artist)? Who should be eligible for such protection? What form should it take?
+
+Yes, these absolutely violate the rights of the artists, even if they are remotely similar. See law for mash-ups. Likeness of voice is like a face. It deserves 100% protection. Exception is for President's, Governor's or other CRITICAL figures, with no consequences to false statements, and evidence of deep fake obviously visible.
+
+33. With respect to sound recordings, how does section 114(b) of the Copyright Act relate to state law, such as state right of publicity laws?  (54) Does this issue require legislative attention in the context of generative AI?
+
+34. Please identify any issues not mentioned above that the Copyright Office should consider in conducting this study.
+
+You should not get excited when Microsoft runs a campaign, and should consult with tech companies that compete and would have something to lose, before you pass any laws. You should not add any cost to developing anything, or any requirements, because that's the only way to stimulate stuff. You stimulate by shutting the fuck up. You're not smart enough to do this stuff.
