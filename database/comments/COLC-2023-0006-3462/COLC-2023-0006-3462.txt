@@ -1,0 +1,1 @@
+The output of generative AI models should be public domain. The training data must be free of copyrighted material and all training data should be made public with a hash code for verification. People should be notified if their personal information (public profile pictures, voice in videos, etc) are used in training sets before the model is trained.

@@ -1,0 +1,1 @@
+I believe that AI as it currently is violates copyright law, because most available models are trained entirely on data scraped from the internet, so parts of copyrighted works are used whenever an image is generated

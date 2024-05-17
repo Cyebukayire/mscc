@@ -1,0 +1,1 @@
+All AI training data must be public domain or collected with the express knowledge that the data will be used for training data. Should a model be trained on copyrighted data, the owner of the copyright should choose if the model needs to be retrained or if they&#39;ll receive compensation. 

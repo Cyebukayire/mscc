@@ -1,0 +1,1 @@
+AI engines should be prohibited from cart blanche crowd sourcing images to train their images. AI image engine developers should have to prove that every image they source has a license allowing them to source it to train their engines. Some forms of Creative Commons licenses might allow it. Public Domain images are allowed.

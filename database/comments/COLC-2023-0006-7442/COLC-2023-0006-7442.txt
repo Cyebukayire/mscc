@@ -1,0 +1,1 @@
+I strongly believe that authors should not have their work used in AI training sets without consent. I believe the Copyright Office should adopt positions finding that training generative AI on copyrighted works without the consent of the authors of those works violates the Copyright Act.

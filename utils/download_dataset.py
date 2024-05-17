@@ -9,6 +9,7 @@ from reportlab.pdfgen import canvas
 import requests
 from docx2pdf import convert
 import urllib.request
+import pypandoc
 # from services.comments import get_comment 
 
 # Initialize database file
@@ -52,7 +53,7 @@ async def download_comments(db_file):
             data = json.load(file)
 
         # Load comment content
-        for i in range(3237, 3501):
+        for i in range(9089, 9301):
             comment_id = f"COLC-2023-0006-{i:04d}"
             print("ID ", comment_id)
 
@@ -61,7 +62,7 @@ async def download_comments(db_file):
 
             # Check if the comment id exist
             if response.status_code != 200 : 
-                print(f"Kipped! Comment ID {comment_id}  Not Found\n")
+                print(f"Skipped! Comment ID {comment_id}  Not Found\n")
                 continue
 
             # Load the comment object to JSON file
@@ -71,19 +72,24 @@ async def download_comments(db_file):
             data.append(comment_object)
 
             # Extract comment content
+            has_attachment = 'included'in comment_object
             comment_content = comment_object['data']['attributes']['comment']
             if comment_content is None:
-                attachment_obj = comment_object['data']['attributes']['fileFormats'][0]
-                file_url = attachment_obj['fileUrl']
-                folder_path = create_path(folder_name=comment_id)
-                download_attachment(file_url=file_url, folder_path=folder_path, file_name=comment_id)
+                if comment_object['data']['attributes']['fileFormats'] is not None:
+                    attachment_obj = comment_object['data']['attributes']['fileFormats'][0]
+                    file_url = attachment_obj['fileUrl']
+                    folder_path = create_path(folder_name=comment_id)
+                    download_attachment(file_url=file_url, folder_path=folder_path, file_name=comment_id)
+                
+                elif not 'included'in comment_object:
+                    raise ValueError(f"An error occurred: {str(comment_id)} has neither comment nor attachment")
             
             else: # Comments posted as text
                 file_path = create_path(folder_name= comment_id, file_name=comment_id+".txt")
                 save_to_txt_file(file_path = file_path, data=comment_content)
         
             # Download all attached document(s)
-            if('included'in comment_object): 
+            if(has_attachment): 
                 for attachment_obj in comment_object['included']:
                     file_url = attachment_obj['attributes']['fileFormats'][0]['fileUrl']
                     folder_path = create_path(folder_name=comment_id)
@@ -102,13 +108,21 @@ def save_to_txt_file(file_path, data):
     with open(file_path, 'w') as file: # File is created if it doesn't exist
         file.write(data)
 
-def download(file_url, file_path):
-    
+def extract_file_content(file_url):
     # Download the pdf file
     response = requests.get(file_url)
 
+    # Get comment content
+    data = response.content
+
+    return data
+
+def download(file_url, file_path):
+    
+    data = extract_file_content(file_url)
+
     with open(file_path, 'wb') as attachment:
-        attachment.write(response.content)
+        attachment.write(data)
 
 # Download word document from url
 def download_docx_from_url(url, file_path):
@@ -143,7 +157,28 @@ def word_document_to_pdf(word_file_url, pdf_file_path):
     
     except Exception as e:
         raise ValueError(f"An error occurred: {str(e)}")
+
+def check_pandoc_installation():
+    try:
+        # Try a simple conversion to check if Pandoc is installed
+        pypandoc.convert_text("", 'plain', format='rtf')
+
+    except OSError:
+        # Pandoc is not installed, download it
+        pypandoc.download_pandoc()
+
+def rtf_document_to_txt(rtf_url, txt_file_path):
+    # Extract content
+    data_in_bytes = extract_file_content(file_url = rtf_url)
+
+    decoded_data = data_in_bytes.decode('utf-8')
     
+    plain_text = pypandoc.convert_text(decoded_data, 'plain', format='rtf')
+
+    # Save data
+    save_to_txt_file(file_path=txt_file_path, data=plain_text)
+    
+
 def extract_file_format(url):
     # Get last string that comes after /
     file_name = url.split('/')[-1]
@@ -162,15 +197,19 @@ def download_attachment(file_url, folder_path, file_name):
     file_format = extract_file_format(file_url)
 
     # Download attached document(s)
-    if file_format in ['pdf', 'txt', 'xlsx', 'jpg', 'gif', 'png', 'jpeg', 'heif', 'psd', 'raw' , 'heic', 'svg' , 'bmp']:
+    if file_format in ['pdf', 'txt', 'xlsx', 'jpg', 'gif', 'png', 'jpeg', 'heif', 'psd', 'raw' , 'heic', 'svg' , 'bmp', 'tif','tiff']:
         file_path = os.path.join(folder_path, f'{file_name}.{file_format}')
         download(file_url=file_url, file_path=file_path)
         
     elif file_format in ['docx', 'docm', 'dotx']:
         file_path = os.path.join(folder_path, f'{file_name}.pdf')
         word_document_to_pdf(word_file_url=file_url, pdf_file_path=file_path)
-        
-    else: # TODO work for 'tif','tiff', 'webp', data extraction
+    
+    elif file_format in ['rtf']:
+        file_path = os.path.join(folder_path, f'{file_name}.txt')
+        rtf_document_to_txt(rtf_url=file_url, txt_file_path=file_path)
+
+    else: # TODO work for 'webp' data extraction
         raise HTTPException(status_code = 400, detail = "Unsupported file format: " + file_url)    
 
 asyncio.run(download_comments(db_file))

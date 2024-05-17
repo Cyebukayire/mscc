@@ -1,0 +1,1 @@
+Generative AI content should NOT be able to be copyrighted as if it were created by a human author, because it wasn&#39;t. In most cases, it is created using content without the consent of creators, as these large models scrape the internet for pieces of writing and artwork to train on.

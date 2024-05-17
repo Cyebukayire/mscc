@@ -1,0 +1,1 @@
+Generative AI companies should be using only source material that they have written approval of from the content creator that is compensated to train datasets on. Any company using AI must properly respect copywrite and not present any opt-out scenarios for content scraping. 

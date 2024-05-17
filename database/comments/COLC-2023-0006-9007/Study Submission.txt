@@ -1,0 +1,229 @@
+I will adress each question on the order put in the notice of inquiry
+and leave blank the ones I choose not to respond.
+
+General Questions
+
+1.
+
+2.
+
+4.
+
+5.
+
+Training
+
+6.
+
+6.1.
+
+6.2.
+
+6.3.
+
+6.4.
+
+7.
+
+7.1
+
+7.2
+
+7.3
+
+7.4 Yes it is. Many AI generated images showcase one or multiple
+recreations of recognizable watermarks/signatures from the images they
+were trained on. In the case they are clear enough it is perfectly
+posible to track the author of the original work. This is substantial
+proof that the AI was trained in an especific training material. Another
+way to identify is the model is train on certain work is trying to use
+the name of a creator on a prompt to see if the AI recognises the name
+and therefore demostrating that it was fed information on the creator of
+set training material. However this second method would likely hold less
+weight than the first one mentioned above.
+
+8.
+
+8.1.
+
+8.2.
+
+8.3.
+
+8.4.
+
+8.5.
+
+9. I think it would be less problematic to give copyright owners the
+option of affirmatively consent since it would ensure that the use of
+those images is by choice and not a lack of awarness or other instances
+that could happen if the only option avaliable is to opt out.
+
+9.1. Consent on the use of copyrighted material should always require
+consent when used for profit/comercial purposes. On the Copyright Office
+Faiir Use index it is more likely to find for-profit and/or comercial
+purposes to be unfair use of copyright materia. However even its clearly
+pointed out that not all comercial uses aren't fair when talking about
+AI especifically they are since the AI by itself can't add new purpose
+or meaning to the results since it does not have the cognitive capacity
+to do so. Therefore regadles of how the images are used they all by
+desing serve the purpose of taking profit from the copyrighted work and
+harms the current market for the owner's original work by mass producing
+similar media for these unfair purposes.
+
+When talking about the nonprofit use of copyrighted training data few
+exeptions can be done as long as they are private to prevent the misuse
+of the AI for other purposes that do harm the person that holds the
+rights to the copyrighted material. For example the use of these work
+for the private nonprofit research on AI woldn't really be a problem as
+long as this status does not change.
+
+9.2.
+
+9.3.
+
+9.4.
+
+9.5.
+
+10. There are many ways avaliable to recieve the necessary consent for
+the use of copyrighted matirial. It can be done on a similar way in wich
+AI companies have started to allow copyright owners to tag their work as
+not avaliable for AI training. By allowing copyright owners to tag their
+work as avaliable for those purposes and training web crawlers to only
+target material that has been tagged that way.
+
+It can also be done by collective licensing under a management
+organization.
+
+Other ways of licencing would be to individually ask for writen consent
+from the copyright holder but that would be more complicated to do on
+such a large scale.
+
+10.1.
+
+10.2.
+
+10.3.
+
+10.4.
+
+10.5.
+
+11.
+
+12.
+
+13.
+
+14.
+
+Transparency & Recordkeeping
+
+15. Idealy yes and yes.
+
+15.1. With just enough information to clearly identify the original
+copyright holder by name and/or a link would be suficient. More measures
+can be done but wouldn't be obligatory.
+
+15.2. To the general public in order to maintain transparency on the
+legality of their actions.
+
+15.3.
+
+15.4.
+
+16.
+
+17.
+
+Generative AI Outputs
+
+18. A human can't own an AI generated images under copyright law since
+the traditional elements of authorship were produced by the machine. The
+factors in witch the human can influence the magine towards a general
+result (such as selecting the material it is trained on and/or providing
+an iterative series of promps) are not enough to claim authorship. These
+imputs don't require any substantial skill or creativity by the human
+and it meelry guides the machine towards a general direction but the one
+independently assembling the image itself is still the AI. AI can by
+used as a tool but it is not a tool in the same sense as for example a
+pencil is. The quality of the results you can get with a pencil will
+completly depend on the skill, time, effort and creativity of the person
+using it but anyone using an AI no matter how experienced they are can
+get great results since the AI does the work for them.
+
+In order to be eligible for copyright the part of a piece made by an AI
+needs to be clearly modified by a human. For example in a comic in wich
+the images are AI generated but the text is created by a human the human
+will own the rights to the text but will not own the images themselfs
+since they where made by a machine with no further significal
+modification. In order for this images to by valid the human should show
+a clear effort to modify and transform each one of them into their own
+original work. This will vary from case to case but the more AI
+generated material exists in a work the less elegible for copyright it
+will be, with images produced by AI by themselfs with no human
+modification not being under any circumstances copyrightable.
+
+19.
+
+20. The protection of AI generated material by itself is not desirable
+as a policy matter because AI is not human and therefore does not hold
+the right to such protections. No, protections of the work made by AI
+isn't necesary to encourage the further development of the systems. AI
+is a very powerful tecnollogy with a very big potential that will raise
+interest on its development without the need to change and/or violate
+the current laws to allow works of non-human origen to be copyrighted.
+Therefore existing laws are more than enough to provide sufficient
+incentives.
+
+20.1.
+
+21. No, since it clearly states that a work needs to be made by a human
+to be copirightable. It wouldn't be necesary, to promote the advance of
+science encouraging the learning and further testing of the AI itself
+(within the legal restrictions) would be enough without necesearly
+having the work made by the AI itself be protected by law. Furthermore
+the already existing laws on the copyright protection for computer code
+are already sufficient incentives with a more clear focused positive
+impact on the advances of science itself. When it comes to art,
+violating and/or changing the existing laws would potentially do more
+harm than good to usefull arts in the long run.
+
+Infringement
+
+22.
+
+23.
+
+24.
+
+25.
+
+25.1.
+
+26.
+
+27.
+
+Labeling or Identification
+
+28.
+
+28.1.
+
+28.2.
+
+28.3.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.

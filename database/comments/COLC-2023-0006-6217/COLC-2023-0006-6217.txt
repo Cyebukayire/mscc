@@ -1,0 +1,1 @@
+Use the metatada from each image scrapped as a means to process micro-payments 1/4ly to all contributors for a particular output. Percentage of pymt to be linked to percentage of image used to train or barring that all contributors (via the metadata) get the same percentage of sales compensation.

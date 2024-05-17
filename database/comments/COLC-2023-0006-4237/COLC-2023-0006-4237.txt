@@ -1,0 +1,1 @@
+AI should not have access to any IP and should only be able to scrape from public domain. Artists, artstyles, and concepts are being stolen at light speed thanks to the availability of AI

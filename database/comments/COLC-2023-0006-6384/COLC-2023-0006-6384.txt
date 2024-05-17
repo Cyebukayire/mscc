@@ -1,0 +1,1 @@
+AI-instigated violations of Copyright is a solveable issue, just build in the usual anti-plagiarism constraints (cite your sources, don&#39;t quote wholesale, etc).  It&#39;s actually going to be trademarks that will cause more issues, because generative systems can&#39;t readily distinguish when they&#39;ve produced something that falls under somebody else&#39;s trademark.

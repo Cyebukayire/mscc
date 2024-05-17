@@ -1,0 +1,1 @@
+AI platforms should be required to document and prove that they have permission/a right to use any training materials that was used to train the AI. That information should be publicly available.

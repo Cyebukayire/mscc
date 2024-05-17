@@ -1,0 +1,1 @@
+Generative AI which is incapable of citing the source images from which it derives a particular generated image should be considered plagiarism, unless the entirety of its training data is either public domain or owned/licensed by the generator.

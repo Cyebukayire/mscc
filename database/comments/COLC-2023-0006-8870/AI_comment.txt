@@ -1,0 +1,34 @@
+1.Generative AI poses a significant risk to our cultural landscape. Without the right to decide whether their work can be used in training AI, creators and creatives will be at a significant disadvantage. Their own work can be used against them. Highly skilled artists and creators of all kind will lose income and be displaced in their fields by generative AI that is both cheaper and faster than a human could ever be. At the same time, these AI could only be created through ingesting the work of human creatives, who were neither asked for permission nor compensated.
+
+2.Generative AI poses immense risks of disposing skilled labour. Facsimiles can be easily created, designed to mimic individual artists. Creatives have to compete with AI trained on their very own work. As such, there will be less incentive to learn valuable skills that enable the creation of the work that AI is based on in the first place. Regular copyright infringement was limited to human factors. AI is infinitely faster and easier, making it possible to create infringing material with virtually no effort.
+
+4.The EU is in the process of establishing a law that will require AI models to reveal the data it was trained on. This is a necessary first step in giving creatives insight in what manner their copyrighted material was used. It is essential that such a law be instituted in the US as well.
+
+6. AI in general scrapes large amounts of material from the Internet. These are currently mainly Images, be they photos or artificially created. Text of all kinds, starting from fiction to blogs, press material, message boards, comments, social media posts, political speeches. Another kind of material is code, such is uploaded on code repositories like Github. There is virtually no limit to what material is gathered for AI. Movies, 3d models, games, designs for products, it all can be used to create an AI that will be able to create a competing product.
+
+6.1 Material is gathered indiscriminately by mass scraping. As such, data models like the LAION5 set even include illegal content.
+
+
+6.2 In general, training material is not licensed by AI companies.
+
+7.1 AI models procedurally generate content based on a text prompt. The exact way the AI generates these images is not known even by the creators of the AI themselves. The AI is given a training goal, and it eventually comes up with a solution to the problem. There are significant signs that generative AI is more akin to a compression algorithm. In some cases, entire text or images from the training material could be reproduced in great detail. Even if models are designed to avoid this, there is no guarantee that a specific prompt will not randomly spit out a recreation of a copyrighted image. Furthermore, end users can trim the AI to more directly copy from source material by using a technology called LORA. In this case, creating images very similar to the source is the desired outcome.
+
+8. Generative AI training can not be considered fair use as it is designed to replace the copyright holders of the training data. A virtually endless amount of competing product can be created after ingestion of training material.
+
+8.3 This would constitute laundering of an AI model, going from infringing on copyright if used commercially to suddenly being acceptable. This would open a door for AI companies to create models for research purposes first, only to turn them into commercial products afterwards.
+
+8.4 AI only works due to the immense amount of data that was used in its training. Without billions of images that were taken without permission, the AI would not have a fraction of the power it has. As such, the actual value of an AI lies by far within the material that was ingested. It's capabilities depend almost exclusively on the hard work of creators and creatives. As such, use of data without acquiring licensing should not be considered fair use.
+
+9. An opt-in system is by far preferable to an opt-out system. At the very least though, the option to opt-out should always exist.
+
+9.5 Yes, training should not be allowed without explicit consent of all applicable right holders.
+
+15. Yes to all this. This is a necessary provision to give copyright holders the capability to enforce their rights.
+
+18 Human authorship should not be given for purely AI generated output. A threshold which implies severe rework of the material should be required to enable claim for human authorship.
+
+21 Generative AI poses a severe threat to the progress of science and arts. AI displaces actually skilled labour in favour of outsourcing skill to a machine. As such, we face cultural and scientific stagnation should AI be allowed to be trained on copyrighted material. Copyright protection should not be given to the output of generative AI to promote human creation of art and knowledge.
+
+25 Both parties should be liable, but at the very least the developer of the AI model. It is their responsibility to make sure that their model is only trained on licensed work.
+
+28 AI generated content should be disclosed as such. It is already trivial to create deepfakes replicating the likeness and voices of any person. This is already used as a tool for disinformation and propaganda. When it comes to other creative work, the user should be able to choose whether they prefer human or machine generated content. As such, AI generated material should not be allowed to masquerade as human generated content.

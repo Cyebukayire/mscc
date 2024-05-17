@@ -1,0 +1,1 @@
+To answer number 9, I believe it is incredibly important for human authors to be able to opt-out of their works being used as training data. It puts a little bit of the control back into our hands, and since AI tends to replicate the data it&#39;s trained on, it should be something that is optional. 

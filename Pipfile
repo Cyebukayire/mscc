@@ -30,6 +30,8 @@ langchain-google-vertexai = "*"
 config = "*"
 fpdf = "*"
 reportlab = "*"
+pip = "*"
+pypandoc = "*"
 
 [dev-packages]
 ipykernel = "*"

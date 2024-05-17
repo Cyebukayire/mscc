@@ -1,0 +1,61 @@
+1. As described above, generative AI systems have the ability to produce material that would be copyrightable if it were created by a human author. What are your views on the potential benefits and risks of this technology? How is the use of this technology currently affecting or likely to affect creators, copyright owners, technology developers, researchers, and the public?
+
+My view of AI currently is nigh-catastrophic. For a technology that has been pitched to the public as a grand jump in what we're capable of, the most dramatic effect I have personally witnessed is AI/ML threatening the livelihoods of artists and writers who already are forced to subsist on sub-par wages. A joke I've seen and fully agree with is "are any of these AI interested in solving the climate crisis or curing cancer? do they all have to be screenwriters?"
+
+5. Is new legislation warranted to address copyright or related issues with generative AI? If so, what should it entail? Specific proposals and legislative text are not necessary, but the Office welcomes any proposals or text for review.
+
+I think new legislation and guidance needs to happen as soon as possible to prevent further abuse of this technology and further theft of artists' work to fuel it.
+
+6. What kinds of copyright-protected training materials are used to train AI models, and how are those materials collected and curated?
+
+6.1. How or where do developers of AI models acquire the materials or datasets that their models are trained on? To what extent is training material first collected by third-party entities (such as academic researchers or private companies)?
+
+OpenAI, one of the big language learning models, was recently discovered to be trained on fanfiction of all things. I write fanfiction as a hobby. There was no request for access to fanfic authors' work. It just happened, because it's assumed that anything posted publicly online is scrappable. This is deeply demoralizing and also seems like an incredibly stupid stance. Does every publically-available article of a news magazine become fair game? I don't think so. If I copy and pasted someone else's work and posted it as my own, I would rightly be dragged over the coals, and if I were financially benefiting from that theft I would deserve to be sued.
+
+I am fine with public domain work being used in these learning models. But by definition, these works will predominately be older works, and the people behind these large-scale learning models don't want to use dated language and vernacular. They want something 'modern.'
+
+If work is directly commissioned by developers to be used in learn models, I find tha acceptable. For me, it is extremely important that people OPT INTO these data models, not be tricked into OPT OUT systems.
+
+Also, regarding that specifically, the idea that a large collection of written or artistic work might be offered up to teach large scale models. Lets say a massive site that has been active for a very long time, such as ArtStation, suddenly emails ALL USERS to say "Hello, we are going to share your personal artwork with this AI/ML data set. If you do NOT want to be included, let us know!"
+
+That's a fine idea but is equally useless. What about users who have changed email addresses and miss that vitally important email? What about people who have moved onto new sites? What about people who have PASSED AWAY who stand to lose this basic protection of their work through zero fault of their own?
+
+The only ethical data sets are ones that the artists OPT INTO with full understanding of the process.
+
+
+8. Under what circumstances would the unauthorized use of copyrighted works to train AI models constitute fair use? Please discuss any case law you believe relevant to this question.
+
+There is no circumstance where unauthorized use of copyright works should be used to train AI. Fair Use should not apply to AI/ML because when a human being creates work protected by Fair Use, there is intentionality and interpretation happening. An AI is reacting to a prompt. There is no intentionality or interpretation, only using someone else's work to generate more of that exact work.
+
+8.3. The use of copyrighted materials in a training dataset or to train generative AI models may be done for noncommercial or research purposes.[44] 
+
+How should the fair use analysis apply if AI models or datasets are later adapted for use of a commercial nature? [45] 
+
+Does it make a difference if funding for these noncommercial or research uses is provided by for-profit developers of AI systems?
+
+I love these questions here because the initial questions made me think "well perhaps for research purposes it would be ethical" but the subsequence two additions reminded me why, no, actually, it would not be ethical. In the same way Accuweather profits off the work of the NOAA, the perfect ethical dream of a Moral Use Of AI would inevitably be turned into profit. No. Keep copyrighted and unauthorized work out of datasets, even non-profit and research-focused AI/ML.
+
+9. Should copyright owners have to affirmatively consent (opt in) to the use of their works for training materials, or should they be provided with the means to object (opt out)?
+
+Opt in with robust, easily-understand parameters and legal agreements is the only acceptable consent. Opt out is not viable for the reasons I described above.
+
+9.4. If an objection is not honored, what remedies should be available? Are existing remedies for infringement appropriate or should there be a separate cause of action?
+
+I think if the objection is not honored, the owner of the dataset should be forced to either discard the entire dataset immediately or to give 100% royalities to every single result of that data set. I want the punishment for not honoring such a request to be so severe it completely dictates the way these things are operated.
+
+15. In order to allow copyright owners to determine whether their works have been used, should developers of AI models be required to collect, retain, and disclose records regarding the materials used to train their models? Should creators of training datasets have a similar obligation?
+
+Yes.
+
+
+18. Under copyright law, are there circumstances when a human using a generative AI system should be considered the “author” of material produced by the system? If so, what factors are relevant to that determination? For example, is selecting what material an AI model is trained on and/or providing an iterative series of text commands or prompts sufficient to claim authorship of the resulting output?
+
+The single and only situation where AI-generated work should be copyrightable is if the dataset was exclusively sourced from the author. That's it.
+
+
+20. Is legal protection for AI-generated material desirable as a policy matter? Is legal protection for AI-generated material necessary to encourage development of generative AI technologies and systems? Does existing copyright protection for computer code that operates a generative AI system provide sufficient incentives?
+
+I don't care. I feel like I have watched AI/ML generated art go from an interesting oddity to a massive threat to truth, art, writing, and the livelihoods of everyone who makes a logo for a new soda, who does art commissions of people's pets, who writes bestselling novels, who works as a script doctor. 
+
+The people behind this technology have proven over and over and over and over EXHAUSTIVELY that are willing to screw over every creative person they can all in the name of profit. I don't think generative AI is 'ready for prime time' so to speak and until these issues are resolved, I don't care about encouraging the development of the technology. Because they've proven they don't care about art and the human labor behind it.
+

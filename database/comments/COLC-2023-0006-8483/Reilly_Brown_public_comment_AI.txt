@@ -1,0 +1,128 @@
+Reilly Brown
+Reilly Brown Studios
+
+www.reillybrownart.com
+Comment submitted by Reilly Brown to the Copyright Office's study on AI
+
+Hi, my name is Reilly Brown, I'm a professional comic book artist, and
+I've got to say, watching the effects that generative AI is having on
+the art community has me totally stressed out!
+
+Thank you for taking the issue seriously, and for being open to input
+form the public. Copyright has been there to protect us artists in the
+past, and now that the landscape is changing, hopefully it will continue
+to be there to protect us into the future!
+
+Question 1: how AI models should use copyrighted data in training
+
+I think AI models should require the written permission of the copyright
+holder before they add any image to their training data. They should
+also provide a complete and searchable database of all the images used
+in their training model, so that artists can know where and when their
+artwork has been used, and by whom. The programs should also provide
+information on what AI-generated images the original art was used to
+create, so that artists can see what their work has been used for.
+
+I've read reports that Adobe is working on a system that provides
+information like this, so if it's possible, I see no reason why other AI
+companies can't implement something similar.
+
+Question 2: whether AI-generated material can be copyrighted even
+without a human involved
+
+I don't see how or why. AI artwork isn't created by any actual people,
+so if there's no labor involved in creating the images, what's the point
+of protecting them?
+
+Trademark, sure, but not copyright.
+
+Part of the reason artwork needs to be protected by copyright is that,
+with the labor involved, the amount of images created by any one person
+over the course of their life is relatively finite. This is not the case
+with generative AI. In fact, while trying to get an image that meets
+their needs, and AI user will generate multiple iterations in round
+after round of image generating before they get what they're looking
+for-- all in the course of a few minutes. This conceivably makes it
+possible for someone to "IP squat" and just generate tons of images, in
+any number of different art styles, in an attempt to corner the market
+on a certain subject matter.
+
+If this is the direction things take, then copyright no longer becomes
+about protecting the labor of artists, because with AI there is very
+little or no labor involved. It becomes about protecting people who are
+fastest at generating images, and the cynical interests of people who
+want to stifle the creativity and job opportunities of human artists.
+
+Question 3: how copyright liability would work with AI
+
+When it comes to who should be liable for AI that infringes on peoples
+copyrights, from my understanding there are three important parties that
+should be held responsible--
+
+First, the person who put an artist's copyrighted image into a database
+that doesn't have permission to have that image.
+
+Second, the company that owns the program that uses that image without
+permission as a basis to generate new images. If the company doesn't
+share information on where they get the images, then I think they adsorb
+the liability of that first person as well.
+
+Third, the person who publishes or otherwise distributes those generated
+images, who will in some way great or small, profit from the image
+that's based on the work of the original artist.
+
+This third person, of course, should also be held liable for the usual
+copyright issues-- such as if the image too closely resembles other
+copyrighted work, etc.
+
+Also, not for nothing, but I think requiring permission from the artist
+before their work can even be placed into an AI database would make the
+work of the Copyright Claims Board much more cut and dried!
+
+Question 4: AI violating publicity rights
+
+Can style be copyrighted? Generally it's been though that, no, it can't,
+however I think that's something that should be reconsidered. If you
+look at both the way people use generative AI and what the AI is capable
+of doing, it's hard to ignore that style is something that probably
+should be protected.
+
+Generative AI is showing that a given artist's style is recognizable,
+duplicatable, and in demand by an audience.
+
+Artists spend years developing their style, and it is difficult for
+other human artists to willingly mimic them, and even if someone is able
+to credibly fool an audience once or twice, they rarely can do it
+reliably-- for instance, in the comics industry, many, many artists have
+tried to mimic the styles of popular creators like Jim Lee, but still
+Jim Lee's work is immediately recognizable as his own, and each of his
+imitators work is recognizable as THEIR own. Perhaps a newby wouldn't be
+able to spot the differences between Jim Lee's X-MEN and Art Thibert's,
+but to any comic book fan the recognition is immediate.
+
+However, AI CAN believably and reliably mimic artists to an extent that
+we've never seen before-- and we've seen that users of AI are actively
+seeking to do just that by using artists names in prompts again and
+again. This shows that artists styles are, in fact, recognizably unique
+and in demand, and I think that makes them things that the artists
+should be able to protect.
+
+If an AI program was trained on the full catalog of the work of Mike
+Mignola, and could reliably generate images that looked just like they
+were created by him, and it was marketed and sold as being able to give
+it's customers the ability to do just that, what's to stop them?
+Shouldn't Mike Mignola be the only person who can control that?
+Shouldn't it be HIS right to sell a program that uses HIS work to create
+images that are designed specifically to be in HIS style?
+
+Isn't that exactly the type of unfair exploitation that copyright was
+designed to protect artists from?
+
+We've never had to consider these questions before, because people
+didn't have the ability to rip artists off in this way before. But with
+generative AI expanding what's possible, they can, and they are, and
+they're going to keep doing it, and so we have to consider how does
+copyright expand to fit this new reality.
+
+Since AI expands what is possible for people to do, copyright needs to
+equally expand what it protects.

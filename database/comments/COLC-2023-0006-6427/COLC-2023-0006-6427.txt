@@ -1,0 +1,1 @@
+Hello!<br/>First of all, AI is not really AI.<br/><br/>Quote: Any &quot;artificial neural network&quot; is just a statistically programmed (virtual) machine whose model software is a derivative work of the source dataset used during its &quot;training&quot;.<br/><br/>Source: https://github.com/Shamar/ANN-decompiler<br/><br/>

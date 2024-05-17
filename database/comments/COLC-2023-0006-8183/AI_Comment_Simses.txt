@@ -1,0 +1,76 @@
+Artificial Intelligence Study comment. Submitter: Michael Simses. Many
+thanks for considering my responses below to Questions 1 and 3. My
+comments specifically address risks Generative AI poses to human
+creators of works of art. I'm responding in a personal capacity, not as
+a representative of any organization or entity. Hyperlinks to works
+cited are included in my answer to Question 3 below.
+Question 1: 'As described above, generative AI systems have the ability
+to produce material that would be copyrightable if it were created by a
+human author. What are your views on the potential benefits and risks of
+this technology? How is the use of this technology currently affecting
+or likely to affect creators, copyright owners, technology developers,
+researchers, and the public?'
+I'm a writer, filmmaker, visual artist, and musician concerned about the
+risk of harm Generative AI presents to all of these endeavors as
+remunerative work, and more broadly as human pursuits, because of the
+apparent ease a of prompting an AI system rather than creating,
+commissioning or purchasing an artwork without the use of such a system.
+Risks arise as well from the nature of the prompt itself, from the way
+in which users interact with Generative AI systems. Users ask these
+systems to envision things for them. The process alienates people from
+their own imaginations. I worry about the risk of erosion of human
+creative abilities through the systems' widespread use, like the risks
+associated with automation dependency in other domains such as aviation.
+[1]
+I'm concerned about the Notice of Inquiry's contemplation of special
+exemptions and exceptions for Generative AI systems, for example: that
+the unauthorized incorporation of copyrighted works into these systems
+would constitute fair use (Question 8), or that owners of copyrighted
+material included in training datasets might not have to be notified of
+the material's inclusion (Question 16), or that negotiation with each
+individual copyright holder on matters such as permission and
+compensation might not be necessary (Section IV, 'The Current Inquiry'),
+or that records of copyright holders' works' inclusion would not be kept
+or disclosed (Question 15). I would never want my work to be included
+among such training materials for Generative AI systems, voluntarily or
+especially in any undisclosed way. Widespread online scraping of human
+work to train Generative AI systems [2] has had a deterrent effect on my
+own production and promulgation of work.
+I'm also concerned about the Notice of Inquiry's contemplation of making
+the output of Generative AI systems copyrightable (Questions 18-21), and
+can imagine the risk of a kind of copyright opportunism arising from
+Generative AI: creating works in vast profusion, copyrighting them, then
+challenging human artists whose later works happen to coincide with that
+profusion—like the practice of Internet domain name speculation. I've
+performed reverse image web searches on the output of Generative AI
+image-creation systems, and the resemblances between the AI output and
+prior human artworks have deterred me from using Generative AI, even for
+inspiration, and have deepened my concerns about the idea of ever making
+Generative AI output copyrightable. Even employing Generative AI
+exclusively on inputs owned by the user poses new and profound risks to
+the human artist, and to progress in art: for example, the possibility
+of a studio or network generating an additional season of a TV series by
+training an AI system on previous seasons, without the involvement of
+any human artists, who granted their work before such technologies were
+in use, or even contemplated. The output of Generative AI systems should
+not be entitled to copyright protection.
+The benefits of Generative AI are uncertain and often overstated, the
+harms are real and happening now, [3] and the risk of damage to human
+creativity is enormous.
+Question 3: 'Please identify any papers or studies that you believe are
+relevant to this Notice. These may address, for example, the economic
+effects of generative AI on the creative industries or how different
+licensing regimes do or could operate to remunerate copyright owners
+and/or creators for the use of their works in training AI models. The
+Office requests that commenters provide a hyperlink to the identified
+papers.'
+[1] 'New FAA pilot-training guidelines seek to address manual flying
+deficiency.'
+By Jon Hemmerdinger. FlightGlobal 11/22/23
+https://www.flightglobal.com/safety/new-faa-pilot-training-guidelines-seek-to-address-manual-flying-deficiency/151076.article
+[2] 'Your Instagrams are training AI. There’s little you can do about
+it.' By Geoffrey A. Fowler. Washington Post 9/27/23
+https://www.washingtonpost.com/technology/2023/09/08/gmail-instagram-facebook-trains-ai/#
+[3] '“AI” Hurts Consumers and Workers — and Isn’t Intelligent'
+By Alex Hanna and Emily Bender. Tech Policy Press 8/4/23
+https://techpolicy.press/ai-hurts-consumers-and-workers-and-isnt-intelligent/

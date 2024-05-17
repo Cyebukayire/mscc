@@ -1,0 +1,1 @@
+I have many artist friends who have been emotionally impacted from discovering that their copyrighted, owned artworks are being used, without their permission or compensation,  by other people to train neural networks and generate new content. I believe that people should not be able to train neural networks on copyrighted works.

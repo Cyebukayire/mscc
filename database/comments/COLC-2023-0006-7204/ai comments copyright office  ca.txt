@@ -1,0 +1,382 @@
+Comments from a concerned artist
+
+1. As described above, generative AI systems have the ability to produce
+material that would be copyrightable if it were created by a human
+author. What are your views on the potential benefits and risks of this
+technology? How is the use of this technology currently affecting or
+likely to affect creators, copyright owners, technology developers,
+researchers, and the public?
+
+My views on this are currently AI is high risk for the future of the
+creation of copyrighted material by real people. The ""skill level"" of
+AI can literally only depend on the art that is fed into it in the first
+place. We've already seen how rapidly capital has moved in to try to
+replace human artists by simply using AI as a way to steal from them
+instead. The problem is none of these generative technologies will show
+how they work. It's absurd that they can theorhetically get away with
+this when they have their own tech black boxed.
+
+2. Does the increasing use or distribution of AI-generated material
+raise any unique issues for your sector or industry as compared to other
+copyright stakeholders?
+
+Yes. in my own field not only is there a move to replace entire sectors
+of creative work, believing that the value of that work is directly tied
+to how much money it makes vs actually creating something of value. AI
+generated images are also flooding websites designed for artists to have
+a way to promote their work to the point where these industries have had
+to start charging additional fees to use them or simply were forced to
+quit taking submissions entirely because AI generated image submissions
+through botting.
+
+4. Are there any statutory or regulatory approaches that have been
+adopted or are under consideration in other countries that relate to
+copyright and AI that should be considered or avoided in the United
+States? (40) How important a factor is international consistency in this
+area across borders?
+
+I am not currently aware of any developing laws outside of the US.
+However I deeply think for the protections of the entire creative
+industry as a whole to not collapse entirely from generated images that
+were made from the very work human artists put out, we desperately need
+the US to take a lead in this factor. The US has a lot of influence on
+large industries where this would really matter. Particularly cinema and
+publishing.
+
+5. Is new legislation warranted to address copyright or related issues
+with generative AI? If so, what should it entail? Specific proposals and
+legislative text are not necessary, but the Office welcomes any
+proposals or text for review.
+
+Absolutely yes. AI generated images need to show "proof of work". They
+can't simply deny the sourcing of those images when they're made from
+copyrighted materials. This is so blatent that ghosts of the artist
+signatures from the work that was used are often easily seen in
+generated images. These artists copyrighted works were taken and scraped
+off of their own portfolios without their consent to train these
+algorhythms in the first place, artists should be able to sue for
+damages.
+
+Training
+
+If your comment applies only to a specific subset of AI technologies,
+please make that clear.
+
+I am only commenting on image-generation AI systems
+
+6. What kinds of copyright-protected training materials are used to
+train AI models, and how are those materials collected and curated?
+
+For artists these models scraped directly from high profile artist
+portfolios, many of which seem to be Behance.com or just googling the
+works of these artists and scraping the images from that. There are
+currently ongoing lawsuits from individual artists over this.
+
+6.2. To what extent are copyrighted works licensed from copyright owners
+for use as training materials? To your knowledge, what licensing models
+are currently being offered and used?
+
+Zero. I've not heard of a single case where an artist was paid licensing
+fees or even volunteered their work for training. No one involved in
+this technology was ever interested in doing this legitimately or with
+consent from artists. The "best" case I've seen is using materials that
+are public domain (such as classical art)
+
+6.3. To what extent is non-copyrighted material (such as public domain
+works) used for AI training? Alternatively, to what extent is training
+material created or commissioned by developers of AI models?
+
+As mentioned above, it is used in addition to copyrighted works. Usually
+it's the 101 well knowns such as Da Vinci, Van Gogh, Monet, etc.
+
+8.5. Under the fourth factor of the fair use analysis, how should the
+effect on the potential market for or value of a copyrighted work used
+to train an AI model be measured? (46) Should the inquiry be whether the
+outputs of the AI system incorporating the model compete with a
+particular copyrighted work, the body of works of the same author, or
+the market for that general class of works?
+
+I feel like generated images by their very nature compete with
+copyrighted work. As an artist, if a program can take over your job
+trained with your own works, and anyone can sell generated images, the
+future of artists who havent even begun to make a name for themselves is
+beyond bleak.
+
+9. Should copyright owners have to affirmatively consent (opt in) to the
+use of their works for training materials, or should they be provided
+with the means to object (opt out)?
+
+It NEEDS to be an opt in system. Opt out is absolutely not good enough.
+It is entirely the responsibility of the AI companies who use these
+images in the first place, not the artists who created the works that
+were stolen from them.
+
+9.1. Should consent of the copyright owner be required for all uses of
+copyrighted works to train AI models or only commercial uses? (47)
+
+Both. AI image generation companies are still making money off
+copyrighted materials just from people paying to use their programs even
+if those images are not sold.
+
+9.2. If an “opt out” approach were adopted, how would that process work
+for a copyright owner who objected to the use of their works for
+training? Are there technical tools that might facilitate this process,
+such as a technical flag or metadata indicating that an automated
+service should not collect and store a work for AI training uses? (48)
+
+I'd love to know this too, because as an artist this seems unbelievably
+burdensome. There is no way I'd feel confident I'd be able to opt out of
+every image generator.
+Additionally, I don't think just by using a platform where you upload
+images (twitter/facebook/tumblr/etc) should be able to automatically opt
+you into agreeing for content you post, writing/images/etc should be
+subject to scraping for AI.
+
+9.3. What legal, technical, or practical obstacles are there to
+establishing or using such a process? Given the volume of works used in
+training, is it feasible to get consent in advance from copyright
+owners?
+
+This is their burden to bear with their tech. It being feasible or not
+isn't the problem of copyright holders.
+
+9.4. If an objection is not honored, what remedies should be available?
+Are existing remedies for infringement appropriate or should there be a
+separate cause of action?
+
+They are not enough. DMCA takedowns are heartbreakingly useless past a
+certain point, and also require artists to expose their personal
+information to people who are potentially going to be malicious. Again,
+I feel like not enough responsibily is being put on the
+models/companies/individuals who stole these images to train their
+models in the first place. There is undue burden being put on artists
+who likely dont have the legal resources to fight back beyond simply
+asking something to be taken down through DMCA.
+
+9.5. In cases where the human creator does not own the copyright—for
+example, because they have assigned it or because the work was made for
+hire—should they have a right to object to an AI model being trained on
+their work? If so, how would such a system work?
+
+I think future issues with this can be sorted by contracts for
+work-for-hire simply having AI clauses in them. However I think aritsts
+whose work was used this way should be able to legally persue how their
+work was used and obtain compensation since this technology would not
+have been listed in the rights sold.
+
+10. If copyright owners' consent is required to train generative AI
+models, how can or should licenses be obtained?
+
+You simply don't use that person's works if you are unable to obtain a
+license. Just like every other industry.
+
+10.1. Is direct voluntary licensing feasible in some or all creative
+sectors?
+
+Possibly? I cannot really see this being appealing to any as an
+individual in my field, but I can see it being appealing to larger
+corporations who might hold the rights to the works that was made for
+them.
+
+10.3. Should Congress consider establishing a compulsory licensing
+regime? (50) If so, what should such a regime look like? What activities
+should the license cover, what works would be subject to the license,
+and would copyright owners have the ability to opt out? How should
+royalty rates and terms be set, allocated, reported and distributed?
+
+For the arts specifically? No. This sounds horrifying.
+
+10.4. Is an extended collective licensing scheme (51) a feasible or
+desirable approach?
+
+No.
+
+10.5. Should licensing regimes vary based on the type of work at issue?
+
+Yes.
+
+13. What would be the economic impacts of a licensing requirement on the
+development and adoption of generative AI systems?
+
+Whatever the economic impacts AI systems have they are secondary to the
+current status of artists whose works are being used without permission
+by those systems.
+
+Transparency & Recordkeeping
+
+15. In order to allow copyright owners to determine whether their works
+have been used, should developers of AI models be required to collect,
+retain, and disclose records regarding the materials used to train their
+models? Should creators of training datasets have a similar obligation?
+
+100% yes. I also fully believe AI models pushed themselves into pubilc
+use as quickly as they possibly could in order to bypass copyright
+holders having these kinds of protections in place. They never wanted to
+pay for or fairly obtain this data.
+
+15.1. What level of specificity should be required?
+
+To start: Source name, artist name or company name/LL if applicable,
+date obtained, how many times the image has been used in generations.
+
+15.2. To whom should disclosures be made?
+
+Copyright holders so they can determine damages
+
+15.3. What obligations, if any, should be placed on developers of AI
+systems that incorporate models from third parties?
+
+It is fully their responsibility to assess for copyrighted materials.
+
+16. What obligations, if any, should there be to notify copyright owners
+that their works have been used to train an AI model?
+
+All of them. All of the obligations. Artists need to be able to know
+they were stolen from to seek damages.
+
+If your comment applies only to a particular subset of generative AI
+technologies, please make that clear.
+
+I am only commenting on image-generation AI systems
+
+Copyrightability
+
+18. Under copyright law, are there circumstances when a human using a
+generative AI system should be considered the “author” of material
+produced by the system? If so, what factors are relevant to that
+determination? For example, is selecting what material an AI model is
+trained on and/or providing an iterative series of text commands or
+prompts sufficient to claim authorship of the resulting output?
+
+No. Any one person can "write" the exact same prompt for generation
+using the same model and get the exact same result. There is no universe
+that process should be copyrightable. There is no creative or unique
+input here, it's typing keywords (which coincidentally are also farmed
+off artists tagging or adding alt text to their own work) and they
+ultimately have no genuine creative control of the output since it can
+only generate based on the images that were fed into the model in the
+first place.
+
+19. Are any revisions to the Copyright Act necessary to clarify the
+human authorship requirement or to provide additional standards to
+determine when content including AI-generated material is subject to
+copyright protection?
+
+I think at this point yes regarding human authorship. I think AI
+generation trying to get around this rule by having a human make edits
+to a generated image is also a potentially significant problem.
+
+20. Is legal protection for AI-generated material desirable as a policy
+matter? Is legal protection for AI-generated material necessary to
+encourage development of generative AI technologies and systems? Does
+existing copyright protection for computer code that operates a
+generative AI system provide sufficient incentives?
+
+Going to go with No. Why does AI get to bypass laws literally every
+other industry has to consider. If anything AI training should be more
+regulated and forced to reveal how it works. If these technologies can
+only function by stealing data from copyrighted material then maybe they
+shouldn't get to exist.
+
+20.1. If you believe protection is desirable, should it be a form of
+copyright or a separate sui generis right? If the latter, in what
+respects should protection for AI-generated material differ from
+copyright?
+
+I think training data just shouldn't be able to profit or gain from
+copyrighted images based on existing rights. If specific language needed
+to be used, then so be it, but I don't see a reason those existing
+protections shouldn't apply here.
+
+21. Does the Copyright Clause in the U.S. Constitution permit copyright
+protection for AI-generated material? Would such protection “promote the
+progress of science and useful arts”? (52) If so, how?
+
+Infringement
+
+22. Can AI-generated outputs implicate the exclusive rights of
+preexisting copyrighted works, such as the right of reproduction or the
+derivative work right? If so, in what circumstances?
+
+Absolutely not, reproduction simply requires a copy of the original
+work, which can be provided by the original author. Derivative works
+don't require already-made compoisitions to be made, even if they are a
+close reference. An AI model cannot by the reality of the technology
+make derivative work because it cannot -create- anything.
+
+24. How can copyright owners prove the element of copying (such as by
+demonstrating access to a copyrighted work) if the developer of the AI
+model does not maintain or make available records of what training
+material it used? Are existing civil discovery rules sufficient to
+address this situation?
+
+Some models are so blatent in theft that signatures still exist in the
+generated images.I will also say as a creative, it's very easy to
+recognize even the echos of your own work, but I doubt that is be enough
+to require a discovery process. Also again, this is more fees and legal
+effort that victims of theft are being forced to endure. I don't know if
+current discovery rules are enough if there isn't a specific rule
+against the "black box" many of these models are hiding behind.
+
+25. If AI-generated material is found to infringe a copyrighted work,
+who should be directly or secondarily liable—the developer of a
+generative AI model, the developer of the system incorporating that
+model, end users of the system, or other parties?
+
+I pursuing believe individuals who are using generated images will be
+unhelpful in addressing the issue. The system that curated images for
+their generator that is being used should be the one liable for damages.
+An individual user cannot be responsible for the training data a model
+uses.
+
+Labeling or Identification
+
+28. Should the law require AI-generated material to be labeled or
+otherwise publicly identified as being generated by AI? If so, in what
+context should the requirement apply and how should it work?
+
+This I think would be difficult to pointless to enforce legally. Having
+images be watermarked would be enough to disuade people from submitting
+these image. Having built in watermarks would not be difficult. Someone
+could of course still remove these watermarks if the were incentivized
+to do so, but it's far better than nothing.
+
+28.1. Who should be responsible for identifying a work as AI-generated?
+
+The image generators. It should not be the responsibility of the general
+public to have to scrutinize the legitimacy of an AI generated image.
+This would not be difficult to impliment as a feature.
+
+28.2. Are there technical or practical barriers to labeling or
+identification requirements?
+
+No. This would be trivial.
+
+28.3. If a notification or labeling requirement is adopted, what should
+be the consequences of the failure to label a particular work or the
+removal of a label?
+
+Monetary damages should be able to be obtained by individual copyright
+holders.
+
+Additional Questions About Issues Related to Copyright
+
+30. What legal rights, if any, currently apply to AI-generated material
+that features the name or likeness, including vocal likeness, of a
+particular person?
+
+None. I've seen professional voice actors absolutely horrified they have
+no way of persuing damages for people generating their voice without
+permission.
+
+32. Are there or should there be protections against an AI system
+generating outputs that imitate the artistic style of a human creator
+(such as an AI system producing visual works “in the style of” a
+specific artist)? Who should be eligible for such protection? What form
+should it take?
+
+Every artist deserves to have their work protected from this. For many
+people their brand and identity encompasses the entire selling point of
+their work. But to say a smaller artist doesn't deserve these same
+protections is absurd and goes against the entire point of having
+protections through copyright.

@@ -1,0 +1,1 @@
+Models trained on copyrighted material, should produce works still under those same copyrights - especially as hallucinations can unexpectedly occur.

@@ -1,0 +1,1 @@
+I&rsquo;m for the &ldquo;opt out&rdquo; approach using technical tools like a technical flag, metadata, or even a small watermark or audio designation on the creators works that signals to any AI program, or AI scraper, that the creator does not want their work used in any way, shape or form. 

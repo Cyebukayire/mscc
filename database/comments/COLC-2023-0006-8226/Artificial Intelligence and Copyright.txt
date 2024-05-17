@@ -1,0 +1,107 @@
+1. I don’t think that ai works modified by a person should have the right to copyright.
+This kills the very idea of ​​creativity and forces people to correct the work of machines. It will be cheap and soulless labor.
+2. This creates a huge number of problems for me. For example, now ai works are posted on websites for artists.
+The entire home page will be filled with them.
+We can't compete with this spam.No one will see your work especially if you are a beginner artist.
+3.
+https://restofworld.org/2023/ai-image-china-video-game-layoffs/
+Xu’s studio produces designs for major game developers in China. Five of the studio’s 15 illustrators
+ who specialize in character design were laid off this year, and Xu believes the adoption of AI image generators was partly to blame. 
+“Two people could potentially do the work that used to be done by 10,” she said. 
+4. China and Japan have the worst regulations. Because of this, on the main Chinese site for artists, pixiv, there is a huge amoun
+of generated
+child porn but not drawings.
+https://www.techtimes.com/articles/293115/20230628/pedophiles-exploit-ai-tools-produce-child-sex-abuse-images.htm
+5. Current legislation does not protect either me or my property on the Internet. Many of advertisements that i see are now in AI images,
+which is false advertisement. I think the use of ai to advertise products should be banned. Train ai on the faces of people who
+did not give consent should be prohibited and existing training data erased. The same applies to the works of artists. 
+Our labor and our styles are used against us and to the evil of scams or child porn(deep fakes).
+6. the Laion-5B and Laion-400M image datasets. These are currently the largest public text-to-image datsets, and they are used to train
+models like Stable Diffusion, Imagen, among many others.
+6.1 for example ChatGPT's New Web Crawler. He just surfs the Internet and steals any available information. They themselves confirmed this.
+It takes any content on the network without any consequences.
+6.2 I don’t know such examples
+6.3 Everywhere. No one gave consent to the data training; all their data was obtained illegally.
+There are no confirmed cases of consensual training yet
+7. there are many videos of analyzes of people who actually manually checked and tested their training
+For example. https://www.youtube.com/watch?v=-MUEXGaxFDA
+7.1 all the data that was able to be saved and loaded without any problems
+7.2 I don't know
+7.3 can't. they save data.
+7.4 many people have found fakes of their works. And if you write a request for a mouse in red shorts in the AI, it will 
+show you Mickey Mouse. If you write the artist's nickname, it will generate an exact copy of the style.
+because it steals data and does not do something on its own. If it doesn't steal data then why when requesting Deadpool?
+there will be a Marvel character design.
+8. I don’t see any circumstances under which it would be fair use if it copies and reproduces someone else’s work.
+This is not a person. If I turn on a Hannah Montana song and u will ask me to sing the same, it’s unlikely that it will turn out well.
+If you feed it to ai there will be a perfect copy. This program is not intended to be fair use.
+8.1 The purpose and nature of the current AI is the monetization of stolen data and completely unfair competition for people.
+8.2 They are also to blame for this situation; they are well aware of what they were doing.
+8.3 If these programs are not available to the public and are not used for profit. But these are the loopholes which now are
+used by AI companies. For research, fair use is fine, but we need to make sure these loopholes are not used by other groups of people
+8.4 The more data, the more successful their model. but that's not fair use. A lot of theft is still theft.
+8.5 Yes, we must control that machines do not compete with the human market.
+9. YES. This is our work, this is our data; it cannot be used without our consent to compete with us.
+9.1 YES. otherwise we will not be able to control what our work and our name are used for.
+9.2 any automation of protection and control will be useful.
+9.3 There are currently no technical or practical obstacles.
+9.4 Existing legal remedies for violations are not effective.
+9.5 Yes, the terms of the contract must state the conditions for using the work and the person must have the opportunity to refuse.
+10. With the contract document.
+10.1 I don't know
+10.2 This is not a desirable approach to me. There is no need to exclude anyone from antitrust laws.
+10.3 I don't know.
+10.4 no
+10.5 yes
+11. responsibility lies with the company providing the service
+12. Yes, it is possible if the data and algorithm are disclosed.
+13. An increase in the number of requests for software licensing and technical and legal specialists.
+Increasing jobs and protecting the creative field.
+14. -
+15.Yes they should.
+15.1 author. date of receiving. date of use. use for what
+15.2 primarily to the court and copyright owners upon request. And it must be
+the maximum time for processing a request is indicated and it must be realistic
+15.3 full obligations
+15.4 -
+16. Statistics on how and when should be provided. And copyright holders must be notified.
+17. of course. personal information law. Moral rights. Private property. Right to privacy/ Privacy laws. Financial Services Modernization Act
+Children’s Online Privacy Protection Act. Controlling the Assault of Non-Solicited Pornography and Marketing Act.
+California Consumer Privacy Act. Virginia's Consumer Data Protection Act
+18. no, the person using the system should not have copyrights because he is not the author.
+19. Yes, we need clarification about authorship from a person. because this is unlikely to be the last time.
+20. No, this will lead to undesirable consequences; they are perfectly incentivized by money.
+20.1 no
+21. Does not allow and should not. will not contribute to progress, it is necessary to support real artificial intelligence systems
+rather than generative.
+22. no, the right of reproduction is a human right because a person cannot reproduce a perfect copy. you can try
+To make a replica of a painting, the question is whether you can do it and how exactly it will look. All people are different.
+Ai repeats information perfectly.
+23. It is but needs addition. We need to know
+information on the basis of which images the work was done and make conclusions based on this information
+24. not enough. We need data disclosure.
+25. Company producer CEO
+25.1 Special licensed distributor systems of similar open-source ai models, which will be responsible for distribution and
+use of these models. Open source products are often supported by grants from special organizations,
+These organizations must bear some of the responsibility.
+Also, companies using data from open-source ai models, for example, are also responsible for security
+using their product
+26.Copyrights must be protected in accordance with 17 U.S.C. 1202(b)
+No one has the right to delete or change authorship information.
+Authors can be indicated in the form of a QR code in the corner of the picture with information about the authors of the works
+27. Responsibility of moderation of mots networks for advertising using AI
+28. Yes, we need labeling of content and there are hundreds of deepfakes that affect our lives. I'll be honest, I've seen advertisements for clothes
+and I had to convince my mother to be more careful and not buy anything like that and there are a lot of such products
+28.1. company creating AI
+28.2 I don't know
+28.3 I think a fine and removal of content will be sufficient punishment
+29. there are several developments for example https://hivemoderation.com/ai-generated-content-detection https://www.aiornot.com/
+They are not one hundred percent, but they help determine sometimes.
+30. I don’t know any such cases and I haven’t seen any actions taken
+31.-
+32. Yes they should. It’s scary to see how your drawing style makes drawings that don’t correspond to your views
+(some of them may contain harmful content) and people will recognize your style.
+The artist should have the right to such protection
+33.-
+34. Please consider AI’s ban on the use in advertising of products that generate AI are not
+reality. also consider protecting women from deepfakes

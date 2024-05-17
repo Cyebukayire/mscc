@@ -1,0 +1,1 @@
+Absolutely no copyright for AI.  AI behavior is nondeterministic. It&#39;s not like other code where the output for a given input is defined.  One should not be able to patent acts of chance.

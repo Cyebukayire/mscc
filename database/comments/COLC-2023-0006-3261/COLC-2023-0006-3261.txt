@@ -1,0 +1,1 @@
+It absolutely should not be legal to scrape the Internet for data to train generative machine learning algorithms. People who post their creative works online, or even people just discussing things in public forums, should not have their work used to generate similar works, even if those works aren&#39;t identical to the works they posted online.

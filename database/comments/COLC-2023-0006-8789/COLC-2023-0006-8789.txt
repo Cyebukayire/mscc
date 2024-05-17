@@ -1,0 +1,1 @@
+We know current &quot;AI&quot; models such as Stable Diffusion,Midjourney, etc, do little more than remix the information that they have been trained on.  As this information is generally copyrighted works, and these models do not ask permission, it should continue to be the rule that work generated from such models CANNOT be copyrighted.

@@ -1,0 +1,1 @@
+We have appropriate content licenses for online content such as the Creative Commons licensing system. Generative AI tools have scraped content without regard to licensing. This is not ok. Such tools should be restricted from scraping text or images unless those images are licensed for transformative/remix work in the Creative Commons license system. <br/><br/>

@@ -1,0 +1,1 @@
+The Copyright for AI produced materials should be owned by the groups or individuals who own the training material that the AI used, whether that be a company, individual, or group. An AI can produce nothing without samples to train on so this makes the most sense to me.
