@@ -3,7 +3,7 @@ from services import comments as comment_service
 from utils import data_extractor, temp_store, word_counter
 from utils.nlp_utils import get_comment_authors, get_tech_tools, get_cited_case_laws
 
-# Retrieve metadata of a single comment
+# Retrieve metadata for a single comment
 async def get_comment_metadata(comment_id: str):
     response = await comment_service.get_comment_with_url(comment_id)
     
@@ -15,6 +15,7 @@ async def get_comment_metadata(comment_id: str):
         comment_content = ""
 
         # Check if the comment has an attachement and extract all simple metadata (EX: comment_id = 'COLC-2023-0006-0036')
+
         if 'included'in response_data:            
             document_url = []
             document_name = []
@@ -29,8 +30,7 @@ async def get_comment_metadata(comment_id: str):
             word_count = word_counter.word_counter(comment_content)
             authors = get_comment_authors(comment_title, comment_content)
             tech_tools = get_tech_tools(comment_content)
-            cited_case_laws = get_cited_case_laws(comment_content)
-            # summary = get_summary(comment_content)
+
             simple_metadata = {
                 "comment_id": comment_id,
                 "comment_title": comment_title,
@@ -39,9 +39,7 @@ async def get_comment_metadata(comment_id: str):
                 "document_size": document_size,
                 "word_count": word_count,
                 "authors": authors,
-                "tech_tools": tech_tools,
-                "cited_case_laws": cited_case_laws,
-                # "summary": summary
+                "tech_tools": tech_tools
             }
 
             # Store metadata
@@ -55,8 +53,6 @@ async def get_comment_metadata(comment_id: str):
             authors = get_comment_authors(comment_title, comment_content)
             word_count = word_counter.word_counter(comment_content)
             tech_tools = get_tech_tools(comment_content)
-            cited_case_laws= get_cited_case_laws(comment_content)
-            # summary = get_summary(comment_content)
             
             simple_metadata = {
                 "comment_id": comment_id,
@@ -67,12 +63,11 @@ async def get_comment_metadata(comment_id: str):
                 "word_count": word_count,
                 "authors": authors,
                 "tech_tools": tech_tools,
-                "cited_case_laws": cited_case_laws,
-                # "summary": summary,
             }
 
             # store metadata
-            temp_store.store_metadata(simple_metadata)
+            output_file_name = "metadata"
+            temp_store.store_metadata(metadata=simple_metadata, file_name=output_file_name)
 
             return simple_metadata
         
