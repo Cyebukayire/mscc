@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from services import comments as comment_service
 from utils import data_extractor, temp_store, word_counter
-from utils.nlp_utils import get_comment_authors, get_tech_tools, get_cited_case_laws
+from utils.nlp_utils import get_comment_authors, get_tech_tools
 
 # Retrieve metadata for a single comment
 async def get_comment_metadata(comment_id: str):
@@ -14,8 +14,7 @@ async def get_comment_metadata(comment_id: str):
         comment_title = comment_data['title']
         comment_content = ""
 
-        # Check if the comment has an attachement and extract all simple metadata (EX: comment_id = 'COLC-2023-0006-0036')
-
+        # Check if the comment has an attachement and extract metadata
         if 'included'in response_data:            
             document_url = []
             document_name = []
@@ -31,7 +30,8 @@ async def get_comment_metadata(comment_id: str):
             authors = get_comment_authors(comment_title, comment_content)
             tech_tools = get_tech_tools(comment_content)
 
-            simple_metadata = {
+            # Save extracted metadata
+            metadata = {
                 "comment_id": comment_id,
                 "comment_title": comment_title,
                 "document_url": document_url,
@@ -43,18 +43,18 @@ async def get_comment_metadata(comment_id: str):
             }
 
             # Store metadata
-            temp_store.store_metadata(metadata=simple_metadata, file_name="metadata")
+            temp_store.store_metadata(metadata=metadata, file_name="metadata")
 
-            return simple_metadata
+            return metadata
         
-        # If comment has no attachement, extract few metadata (Ex: comment_id = 'COLC-2023-0006-0862')
+        # Handle comment with no attachement
         else:
             comment_content = comment_data['comment']
             authors = get_comment_authors(comment_title, comment_content)
             word_count = word_counter.word_counter(comment_content)
             tech_tools = get_tech_tools(comment_content)
             
-            simple_metadata = {
+            metadata = {
                 "comment_id": comment_id,
                 "comment_title": comment_title, 
                 "file_url": "No attached document",
@@ -67,9 +67,9 @@ async def get_comment_metadata(comment_id: str):
 
             # store metadata
             output_file_name = "metadata"
-            temp_store.store_metadata(metadata=simple_metadata, file_name=output_file_name)
+            temp_store.store_metadata(metadata=metadata, file_name=output_file_name)
 
-            return simple_metadata
+            return metadata
         
     else:
         raise HTTPException(status = response.status_code, message = f"failed to fetch comment{comment_id}")
