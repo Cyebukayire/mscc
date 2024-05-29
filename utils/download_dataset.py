@@ -53,7 +53,7 @@ async def download_comments(db_file):
             data = json.load(file)
 
         # Load comment content
-        for i in range(10376, 10377):
+        for i in range(1, 10374):
             comment_id = f"COLC-2023-0006-{i:04d}"
             print("ID ", comment_id)
 

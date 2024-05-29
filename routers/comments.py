@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from controllers.comments import get_comment_metadata
+from controllers.comments_external_api_controller import get_comment_metadata
 
 router = APIRouter(
     prefix = "/comments",          
