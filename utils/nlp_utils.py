@@ -4,9 +4,9 @@ from models import bart_large, t5
 from eyecite import get_citations, clean_text
 
 # Extract author names
-def get_comment_authors(comment_title, comment_content: str):
+def get_comment_authors(title, comment_content: str):
     prompt = "Who wrote this comment?"
-    comment = comment_title + ' ' + comment_content.replace('\n', ' ')
+    comment = title + ' ' + comment_content.replace('\n', ' ')
     comment_size = len(comment)
 
     # Limit large document input
