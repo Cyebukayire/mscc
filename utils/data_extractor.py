@@ -7,34 +7,6 @@ import requests
 import os
 from docx2pdf import convert
 import PyPDF2
-import glob
-
-
-# Method to extract all the text posted as a single comment
-def select_comment_content_from_database(comment_id):
-
-    database_path = os.path.join('..', 'database', 'comments', f'{comment_id}')
-
-    text = []
-    
-    # Iterate through files in the folder
-    for comment_path in glob.glob(os.path.join(database_path, '*')):
-        # Check if it's a text file
-        if comment_path.endswith('.txt'):
-            with open(comment_path, 'r', encoding='utf-8') as file:
-                text.append(file.read())
-
-        # Check if it's a PDF file
-        elif comment_path.endswith('.pdf'):
-            with open(comment_path, 'rb') as file:
-                pdf_reader = PyPDF2.PdfReader(file)
-                text = ''
-                for page_num in range(len(pdf_reader.pages)):
-                    page = pdf_reader.pages[page_num]
-                    text += page.extract_text()
-                text.append(text)
-
-    return text
 
 # extract text from an excel document
 def extract_text_from_excel(url):

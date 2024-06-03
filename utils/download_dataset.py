@@ -3,17 +3,14 @@ import asyncio
 import os
 import json
 import httpx
-from fpdf import FPDF
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
 import requests
 from docx2pdf import convert
 import urllib.request
 import pypandoc
-# from services.comments import get_comment 
+from config.config import settings
 
 # Initialize database file
-db_file = "/Users/peace/Developer/Machine Learning/Research/mscc/database/database.json"
+db_file = f"{settings.LOCAL_DB_PATH}database.json"
 
 # Get a comment from Regulations.gov API 
 async def get_comment(comment_id):
@@ -22,7 +19,6 @@ async def get_comment(comment_id):
         comment_api = f"https://api.regulations.gov/v4/documents/{comment_id}?include=attachments&api_key={regulations_api_key}"
         response = await client.get(comment_api)
         return response
-
 
 # Create database file path
 def create_path(folder_name, file_name=None):
@@ -74,6 +70,7 @@ async def download_comments(db_file):
             # Extract comment content
             has_attachment = 'included'in comment_object
             comment_content = comment_object['data']['attributes']['comment']
+
             if comment_content is None: # Check if there is no comment
 
                 # Check for extra attached files in the comment
@@ -87,7 +84,8 @@ async def download_comments(db_file):
                 elif not 'included'in comment_object:
                     raise ValueError(f"An error occurred: {str(comment_id)} has neither comment nor attachment")
             
-            else: # Comments posted as text
+            # Save comment posted as text
+            else: 
                 file_path = create_path(folder_name= comment_id, file_name=comment_id+".txt")
                 save_to_txt_file(file_path = file_path, data=comment_content)
         
