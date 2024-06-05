@@ -32,6 +32,7 @@ fpdf = "*"
 reportlab = "*"
 pip = "*"
 pypandoc = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 ipykernel = "*"

@@ -164,3 +164,7 @@ output/
 
 # Other files
 .DS_Store
+
+
+# Google API Configurations
+config/credentials.json
