@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from controllers.comments_external_api_controller import get_comment_metadata
-from controllers.comments_local_db_controller import get_all_metadata
+from controllers.comments_local_db_controller import get_all_metadata, update_comment_entity
 
 router = APIRouter(
     prefix = "/comments",          
@@ -19,3 +19,10 @@ async def get_comment():
 async def get_comment(comment_id: str):
     simple_metadata = await get_comment_metadata(comment_id)
     return simple_metadata
+
+# Update Entity
+@router.put("/entity")
+def update_entity():
+    message = update_comment_entity()
+    return message
+

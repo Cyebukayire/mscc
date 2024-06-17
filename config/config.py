@@ -7,5 +7,6 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str
     LOCAL_DB_PATH: str
     CONFIG_PATH: str
+    OUTPUT_PATH: str
 
 settings = Settings()

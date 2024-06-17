@@ -1,10 +1,10 @@
-from fastapi import HTTPException
 from services import comments as comment_service
-from utils import data_extractor, temp_store, word_counter, clean_data
+from utils import temp_store, clean_data, entity_classification
 from utils.nlp_utils import get_comment_authors, get_tech_tools, get_cited_case_laws
-import re, os, PyPDF2, glob
+import os, PyPDF2, glob
 import json
 from config.config import settings
+import pandas as pd
 
 async def get_all_metadata():
         # Loop through all comment objects
@@ -142,3 +142,27 @@ def fetch_comment_content_from_db(comment_id: str):
                 comment += data
 
     return comment
+
+# Method to update comment entity
+def update_comment_entity():
+    # Define output file path
+    output_file = f"{settings.OUTPUT_PATH}updated_all_metadata.xlsx"
+
+    # Load the data from file
+    df = pd.read_excel(output_file)
+
+    # Create 'entity column'
+    df['entity'] =  df['comment_title'].apply(entity_classification.determine_entity)
+
+    # Save updates
+    try:
+        df.to_excel(output_file, index = False)
+        
+        if os.path.isfile(output_file):
+            return "Entity updated successfully!"
+        
+        else:
+            return "Error: Changes were not saved successfully!"
+
+    except Exception as e:
+        return e

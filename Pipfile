@@ -33,6 +33,10 @@ reportlab = "*"
 pip = "*"
 pypandoc = "*"
 beautifulsoup4 = "*"
+pandas = "*"
+openpyxl = "*"
+openai = "*"
+asyncio = "*"
 
 [dev-packages]
 ipykernel = "*"
