@@ -5,6 +5,11 @@ import os, PyPDF2, glob
 import json
 from config.config import settings
 import pandas as pd
+import ast
+from collections import Counter
+
+# Define output file path
+output_file = f"{settings.OUTPUT_PATH}updated_all_metadata.xlsx"
 
 async def get_all_metadata():
         # Loop through all comment objects
@@ -145,9 +150,6 @@ def fetch_comment_content_from_db(comment_id: str):
 
 # Method to update comment entity
 def update_comment_entity():
-    # Define output file path
-    output_file = f"{settings.OUTPUT_PATH}updated_all_metadata.xlsx"
-
     # Load the data from file
     df = pd.read_excel(output_file)
 
@@ -166,3 +168,19 @@ def update_comment_entity():
 
     except Exception as e:
         return e
+    
+# Method to get all cited case laws
+def get_cited_case_laws():
+    # Collect all citations
+    df = pd.read_excel(output_file, sheet_name=0)
+
+    # Get all cited case laws
+    citations = df["cited_case_laws"]
+
+    # Convert citations from string to a python list
+    citation_list = pd.DataFrame(citations)['cited_case_laws'].apply(ast.literal_eval)
+
+    # Combine all lists
+    all_cited_case_laws = sum(citation_list, [])
+
+    return all_cited_case_laws

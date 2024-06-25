@@ -37,6 +37,7 @@ pandas = "*"
 openpyxl = "*"
 openai = "*"
 asyncio = "*"
+xlrd = "*"
 
 [dev-packages]
 ipykernel = "*"
