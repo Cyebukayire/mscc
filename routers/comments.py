@@ -14,13 +14,14 @@ async def get_comment():
     all_metadata = await get_all_metadata()
     return all_metadata
 
-# Get cited case laws
+# Get all cited case laws
 @router.get("/citations/all")
 def get_citations():
     citations = get_cited_case_laws()
     return citations
 
-@router.get("/citations/rank")
+# Count frequency of eact cited case law
+@router.get("/citations/count")
 def get_citations():
     analysis = count_cited_case_laws()
     return analysis
