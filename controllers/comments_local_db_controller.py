@@ -7,9 +7,17 @@ from config.config import settings
 import pandas as pd
 import ast
 from collections import Counter
+from openpyxl import load_workbook
 
 # Define output file path
 output_file = f"{settings.OUTPUT_PATH}updated_all_metadata.xlsx"
+
+# Raise exception if the file doesn't exist
+if not os.path.isfile(output_file):
+    raise FileNotFoundError(f"Error: The file '{output_file}' does not exist.")
+
+# Load all metadata
+df = pd.read_excel(output_file)
 
 async def get_all_metadata():
         # Loop through all comment objects
@@ -150,30 +158,24 @@ def fetch_comment_content_from_db(comment_id: str):
 
 # Method to update comment entity
 def update_comment_entity():
-    # Load the data from file
-    df = pd.read_excel(output_file)
-
     # Create 'entity column'
     df['entity'] =  df['comment_title'].apply(entity_classification.determine_entity)
 
-    # Save updates
+    # Save entity updates
     try:
-        df.to_excel(output_file, index = False)
+        sheet_name = "all_metadata"
         
-        if os.path.isfile(output_file):
-            return "Entity updated successfully!"
+        # Use openpyxl engine to preserve existing sheets
+        with pd.ExcelWriter(output_file, engine='openpyxl', mode='a', if_sheet_exists='overlay') as writer:
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
         
-        else:
-            return "Error: Changes were not saved successfully!"
+        return "Entity column updated successfully!"
 
     except Exception as e:
         return e
     
 # Method to get all cited case laws
 def get_cited_case_laws():
-    # Collect all citations
-    df = pd.read_excel(output_file, sheet_name=0)
-
     # Get all cited case laws
     citations = df["cited_case_laws"]
 
@@ -184,3 +186,34 @@ def get_cited_case_laws():
     all_cited_case_laws = sum(citation_list, [])
 
     return all_cited_case_laws
+
+# Method to Count cited case laws and return number of times each case-law was cited
+def count_cited_case_laws():
+    # Get citations
+    all_cited_case_laws = get_cited_case_laws()
+
+    # Count occurance of each citation
+    citation_counts_obj = Counter(all_cited_case_laws)
+
+    # Convert counter object to dictionary
+    sorted_citation_dict = dict(sorted(citation_counts_obj.items(), key=lambda item: item[1], reverse=True))
+
+    # convert the citation dictionary to dataframe
+    citation_counts = pd.DataFrame({
+        "citation_count": list(sorted_citation_dict.keys()),
+        "count": list(sorted_citation_dict.values())
+    })
+
+    # Save citation count
+    with pd.ExcelWriter(output_file, engine='openpyxl', mode='a') as writer:
+        workbook = writer.book
+        sheet_name = "citation_count"
+
+        # Delete existing similar sheet if any
+        if sheet_name in workbook.sheetnames:
+            del workbook["citation_count"]
+        
+        # Create new excel sheet and save the citation count
+        citation_counts.to_excel(writer, sheet_name="citation_count", index=False)
+
+    return sorted_citation_dict
